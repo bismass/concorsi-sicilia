@@ -20,7 +20,8 @@ from requests.exceptions import RequestException
 OUT = Path(__file__).parent / "data" / "concorsi.json"
 CACHE = Path(__file__).parent / "cache"  # testo dei PDF già scaricati: permette di migliorare il riconoscimento senza riscaricare
 ANALISI = 2  # versione del riconoscimento: se aumenta, i bandi "senza titolo trovato" vengono rianalizzati
-UA = {"User-Agent": "concorsi-sicilia-bot/0.1 (+https://github.com/bismass/concorsi-sicilia)"}ATTESA = 5   # secondi: base dell'attesa tra un tentativo e l'altro quando la rete cade (5, 15, 45, 135)
+UA = {"User-Agent": "concorsi-sicilia-bot/0.1 (+https://github.com/maxfr/concorsi-sicilia)"}
+ATTESA = 5   # secondi: base dell'attesa tra un tentativo e l'altro quando la rete cade (5, 15, 45, 135)
 PAUSA = 0.7  # secondi tra una richiesta e l'altra: siamo ospiti, andiamo piano
 PROV = "Catania"  # (usato solo dal vecchio percorso WordPress)
 REGIONE = "Sicilia"
