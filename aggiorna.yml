@@ -1,0 +1,67 @@
+name: Aggiorna concorsi e pubblica il sito
+
+on:
+  schedule:
+    - cron: "30 4 * * *"   # ogni giorno: controllo veloce delle pagine più recenti
+    - cron: "30 3 * * 0"   # ogni domenica: giro completo
+  workflow_dispatch:
+    inputs:
+      pagine:
+        description: "Pagine da leggere (50 bandi l'una; 1700 = tutto)"
+        default: "150"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: aggiorna
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Installa Tesseract (OCR) e librerie
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-ita
+          pip install -r requirements.txt -r requirements-ocr.txt
+      - name: Quante pagine leggere
+        id: p
+        run: |
+          if [ "${{ github.event.schedule }}" = "30 3 * * 0" ]; then echo "n=1700" >> "$GITHUB_OUTPUT"
+          elif [ -n "${{ github.event.inputs.pagine }}" ]; then echo "n=${{ github.event.inputs.pagine }}" >> "$GITHUB_OUTPUT"
+          else echo "n=150" >> "$GITHUB_OUTPUT"; fi
+      - name: Raccogli i concorsi
+        run: python scrape.py --pagine ${{ steps.p.outputs.n }} --ocr
+      - name: Salva i dati nel repository
+        run: |
+          git config user.name "concorsi-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/concorsi.json
+          git diff --staged --quiet || (git commit -m "Aggiornamento concorsi" && git push)
+      - name: Prepara il sito
+        run: |
+          mkdir _site
+          cp index.html _site/
+          cp -r data _site/data
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  pubblica:
+    needs: aggiorna
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.d.outputs.page_url }}
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4

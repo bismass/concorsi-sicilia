@@ -1,0 +1,4 @@
+# Solo per --ocr (in più di requirements.txt). Serve anche il programma Tesseract con la lingua italiana.
+pymupdf>=1.24
+pytesseract>=0.3.10
+pillow>=10

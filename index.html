@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Concorsi Sicilia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf8f5;--sb:#f1ece3;--card:#fff;--tx:#1d1b18;--mu:#6b665e;--bd:#e4ded4;--ac:#b4421c;--ok:#2f7a3f;--wa:#a96a00;--no:#8a8478;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171513;--sb:#1d1a17;--card:#211e1b;--tx:#f1ece4;--mu:#a39c90;--bd:#35302a;--ac:#e8845c;--ok:#6fc07f;--wa:#e0a73c;--no:#8f887b;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171513;--sb:#1d1a17;--card:#211e1b;--tx:#f1ece4;--mu:#a39c90;--bd:#35302a;--ac:#e8845c;--ok:#6fc07f;--wa:#e0a73c;--no:#8f887b;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 Georgia,serif}
+.app{display:grid;grid-template-columns:250px 1fr;min-height:100vh}
+aside{background:var(--sb);border-right:1px solid var(--bd);padding:20px 12px;font-family:system-ui,sans-serif}
+.logo{font:700 1.1rem Georgia,serif;padding:0 8px 14px}
+.lbl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--mu);padding:10px 8px 4px}
+.nav{display:flex;justify-content:space-between;align-items:center;width:100%;text-align:left;border:0;background:none;color:var(--tx);font:14px system-ui,sans-serif;padding:8px;border-radius:8px;cursor:pointer}
+.nav:hover:not(:disabled){background:var(--bd)}
+.nav:disabled{color:var(--mu);cursor:default;opacity:.65}
+.nav.on{background:var(--ac);color:#fff}
+.prov{font-weight:600}
+.sub{margin:2px 0 6px 12px;border-left:2px solid var(--bd);padding-left:6px}
+.cnt{font-size:12px;opacity:.8}
+.soon{font-size:10px;border:1px solid currentColor;border-radius:5px;padding:0 5px}
+main{padding:24px 28px 48px;width:100%;min-width:0}
+h1{font-size:1.6rem;margin:0}
+.sb{color:var(--mu);font:14px system-ui,sans-serif;margin:2px 0 18px}
+.tools{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+input,select{font:14px system-ui,sans-serif;padding:9px 10px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);flex:1;min-width:140px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:14px 16px;margin-bottom:10px}
+.c h3{margin:0 0 4px;font-size:1.05rem}
+.m{font:13px system-ui,sans-serif;color:var(--mu);display:flex;gap:12px;flex-wrap:wrap}
+.b{font:600 12px system-ui,sans-serif;padding:2px 8px;border-radius:6px;border:1px solid currentColor}
+.ok{color:var(--ok)}.wa{color:var(--wa)}.no{color:var(--no)}
+a{color:var(--ac);font:600 13px system-ui,sans-serif}
+.empty,.note{font:14px system-ui,sans-serif;color:var(--mu);padding:12px 0}
+.kp{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px}
+.kp div{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px;font:13px system-ui,sans-serif;color:var(--mu)}
+.kp b{display:block;font:700 1.6rem Georgia,serif;color:var(--tx)}
+.ch{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:14px 16px;margin-bottom:14px}
+.ch h3{margin:0 0 12px;font:600 14px system-ui,sans-serif}
+.bars{display:flex;align-items:flex-end;gap:6px;height:150px}
+.bar{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;font:11px system-ui,sans-serif;color:var(--mu)}
+.bar i{display:block;width:100%;background:var(--ac);border-radius:4px 4px 0 0;min-height:2px}
+.bar span{margin-top:4px}
+.bar em{font-style:normal;color:var(--tx);margin-bottom:2px}
+.tg{font:14px system-ui,sans-serif;color:var(--mu);display:flex;gap:6px;align-items:center;margin-bottom:14px}
+.mb{display:none}
+@media(max-width:760px){.app{grid-template-columns:1fr}aside{display:none;border-right:0;border-bottom:1px solid var(--bd)}aside.open{display:block}.mb{display:block;margin:12px 16px 0;padding:8px 12px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);font:14px system-ui,sans-serif}main{padding:16px}.kp{grid-template-columns:1fr}}
+body *{font-family:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif!important}
+h1,h3.t,.logo,.kp b,.c h3{font-family:'Fraunces',Georgia,serif!important;letter-spacing:-.01em}
+body{font-family:'DM Sans',system-ui,sans-serif;font-size:15.5px}
+h1{font-weight:700;font-size:1.75rem}
+.c{transition:box-shadow .15s,transform .15s}
+.c:hover{box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-1px)}
+.nav{border-radius:10px;font-weight:500}
+.nav.sel{font-weight:700!important;background:var(--bd)}
+.top{margin-bottom:6px}.l{display:flex;align-items:center;gap:9px;min-width:0}
+.ic{display:inline-grid;place-items:center;min-width:22px;font-size:15px}
+.sg{min-width:32px;height:24px;border-radius:7px;background:var(--bd);font-size:11px;font-weight:700;letter-spacing:.04em}
+.nav.sel .sg{background:var(--ac);color:#fff}
+.tgl .logo{padding:0;font-size:1.05rem;font-weight:700}
+.app{transition:grid-template-columns .2s ease}
+@media(min-width:761px){
+.app.min{grid-template-columns:66px 1fr}
+.app.min aside{padding:14px 7px;overflow:hidden}
+.app.min .tx,.app.min .lbl,.app.min .cnt{display:none}
+.app.min .nav{justify-content:center;padding:8px 0}
+.app.min .sub{margin:2px 0 8px 0;border-left:0;padding-left:0;display:flex;flex-direction:column;gap:2px;align-items:center}
+.app.min .sub .nav{width:36px}
+.app.min .nav.sel{background:none}
+}
+#l{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,440px),1fr));gap:12px;align-items:start}
+#l .c{margin-bottom:0;height:100%}
+#l .empty{grid-column:1/-1}
+.c h3{font-size:.98rem;line-height:1.35;margin:0 0 10px}
+.m{align-items:center;gap:6px 14px}
+.chip{display:inline-flex;align-items:center;gap:6px;line-height:1.4}
+.chip .e{font-style:normal;font-size:13px;line-height:1;width:16px;text-align:center;flex:none}
+.b{display:inline-flex;align-items:center;line-height:1.4}
+.tools{max-width:900px}
+</style>
+</head>
+<body>
+<button class="mb" id="mb">☰ Menu</button>
+<div class="app">
+<aside id="sb"></aside>
+<main>
+<h1 id="t"></h1>
+<p class="sb" id="s"></p>
+<div id="v"></div>
+</main>
+</div>
+<script>
+let DATA=[],AGG=""; // viene caricato da data/concorsi.json (prodotto da scrape.py)
+const PROV=["Agrigento","Caltanissetta","Catania","Enna","Messina","Palermo","Ragusa","Siracusa","Trapani"];
+const VIEWS={attivi:"Attivi",scaduti:"Scaduti di recente",backlog:"Backlog",stat:"Statistiche"};
+const MESI=["Gen","Feb","Mar","Apr","Mag","Giu","Lug","Ago","Set","Ott","Nov","Dic"];
+const oggi=new Date();oggi.setHours(0,0,0,0);
+const anno_fa=new Date(oggi);anno_fa.setFullYear(oggi.getFullYear()-1);
+const stato=c=>!c.scad||new Date(c.scad)>=oggi?"attivi":new Date(c.scad)>=anno_fa?"scaduti":"backlog";
+const fmt=s=>s?new Date(s).toLocaleDateString("it-IT",{day:"numeric",month:"long",year:"numeric"}):"da verificare";
+const $=id=>document.getElementById(id);
+try{const t=localStorage.getItem("tema");if(t)document.documentElement.dataset.theme=t}catch(e){}
+const tema=()=>document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
+function setTema(t){document.documentElement.dataset.theme=t;try{localStorage.setItem("tema",t)}catch(e){}}
+let st={prov:"Sicilia",view:"attivi",q:"",ente:"",prof:"",studio:"",anno:oggi.getFullYear(),demo:false};
+
+// Dati simulati SOLO per anteprima dei grafici (generatore deterministico)
+function simulati(){let x=7,r=()=>(x=(x*9301+49297)%233280)/233280,o=[];
+for(let y=oggi.getFullYear()-3;y<=oggi.getFullYear();y++)for(let m=0;m<12;m++){if(y===oggi.getFullYear()&&m>oggi.getMonth())break;
+const n=Math.round(3+r()*9+(m===2||m===8?4:0));for(let i=0;i<n;i++)o.push({pub:`${y}-${String(m+1).padStart(2,"0")}-15`,profilo:PR[Math.floor(r()*r()*PR.length)],studio:SD[Math.floor(r()*r()*SD.length)],province:[PROV[Math.floor(r()*r()*PROV.length)]],ente:"Ente "+(1+Math.floor(r()*r()*12)),categoria:["Concorso","Avvisi di mobilità","Selezione"][Math.floor(r()*r()*3)]})}return o}
+const PR=["Amministrativo","Tecnico","Polizia locale","Contabile","Sanitario","Vari profili"],SD=["Diploma","Laurea","Licenza media","Vari"];
+const inProv=(c,p)=>p==="Sicilia"||(c.province||[c.prov]).includes(p);
+const rows=()=>DATA.filter(c=>inProv(c,st.prov));
+
+const SIGLE={Sicilia:"🗺️",Agrigento:"AG",Caltanissetta:"CL",Catania:"CT",Enna:"EN",Messina:"ME",Palermo:"PA",Ragusa:"RG",Siracusa:"SR",Trapani:"TP"};
+const VICON={attivi:"🟢",scaduti:"🕓",backlog:"🗄️",stat:"📊"};
+let min=false;try{min=localStorage.getItem("menu")==="min"}catch(e){}
+function menu(){
+document.querySelector(".app").classList.toggle("min",min);
+const r=rows(),n=k=>r.filter(c=>stato(c)===k).length;
+const att=p=>DATA.filter(c=>inProv(c,p)&&stato(c)==="attivi").length;
+const nav=(cls,attrs,ic,txt,cnt)=>`<button class="nav ${cls}" ${attrs} title="${txt}"><span class="l">${ic}<span class="tx">${txt}</span></span>${cnt===undefined?"":`<span class="cnt">${cnt}</span>`}</button>`;
+$("sb").innerHTML=`<div class="top">`+nav("tgl",'id="tg"',`<span class="ic">☰</span>`,"📋 Concorsi Sicilia").replace('<span class="tx">','<span class="tx logo">')+`</div><div class="lbl">Territorio</div>`+["Sicilia",...PROV].map(p=>{
+const on=p===st.prov,nome=p==="Sicilia"?"Tutta la Sicilia":p;
+return nav("prov"+(on?" sel":""),`data-p="${p}"`,`<span class="ic sg">${SIGLE[p]}</span>`,nome,att(p))
++(on?`<div class="sub">`+["attivi","scaduti","backlog"].map(k=>nav(st.view===k?"on":"",`data-v="${k}"`,`<span class="ic">${VICON[k]}</span>`,VIEWS[k],n(k))).join("")+`</div>`:"")}).join("")+
+`<div class="lbl">Analisi</div>`+nav(st.view==="stat"?"on":"",'data-v="stat"',`<span class="ic">📊</span>`,"Statistiche")+`<div class="lbl">Aspetto</div>`+nav("",'id="th"',`<span class="ic">${tema()==="dark"?"☀️":"🌙"}</span>`,tema()==="dark"?"Tema chiaro":"Tema scuro");
+$("tg").onclick=()=>{if(matchMedia("(max-width:760px)").matches){$("sb").classList.remove("open");return}min=!min;try{localStorage.setItem("menu",min?"min":"")}catch(e){}menu()};
+$("th").onclick=()=>{setTema(tema()==="dark"?"light":"dark");menu()};
+$("sb").querySelectorAll("[data-p]").forEach(b=>b.onclick=()=>{st.prov=b.dataset.p;st.q=st.ente=st.prof=st.studio="";draw()});
+$("sb").querySelectorAll("[data-v]").forEach(b=>b.onclick=()=>{st.view=b.dataset.v;$("sb").classList.remove("open");draw()});
+}
+
+// ---- Titoli: da TUTTO MAIUSCOLO a "Maiuscola iniziale", lasciando intatte le sigle ----
+const esc=s=>String(s??"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+const SIGLE_OK=new Set("CCNL AFAM ASP ASL AOU ARNAS INGV INPS INAIL ISEE ICT OSS ATA UOC UOSD UOS ASMEL ARPA IRCCS SPA SRL TAR CNR ENEA ISTAT ANAS UE PNRR PA RUP CED IT ITI MIUR MUR GURI DPR DPCM ANCI ASST ATS AUSL USL APSP IPAB LGS TD TI EQ SUAP ISPRA".split(" "));
+const ROMANI=/^(II|III|IV|V|VI|VII|VIII|IX|X)$/;
+const TOK=/[A-Za-zÀ-ÿ0-9][A-Za-zÀ-ÿ0-9.’'\/-]*/g;
+function bello(t,c){
+t=String(t||"");const L=t.replace(/[^A-Za-zÀ-ÿ]/g,"");
+if(!L.length||t.replace(/[^A-ZÀ-Þ]/g,"").length/L.length<0.7)return t;   // già in minuscolo/misto: non si tocca
+const prop={};  // nomi propri recuperati da ente e province (es. "Catania", "Comune")
+[c&&c.ente,...(c&&(c.province||[c.prov])||[]),"Sicilia","Italia","Etneo","Etna",...PROV].forEach(s=>String(s||"").split(/[\s,]+/).forEach(w=>{if(w.length>=4&&/^[A-ZÀ-Þ]/.test(w)&&/[a-zà-ÿ]/.test(w))prop[w.toLowerCase()]=w}));
+const ws=[...t.matchAll(TOK)];let out="",last=0;
+ws.forEach((m,i)=>{
+const w=m[0],core=w.replace(/[.’'\/-]+$/,""),prev=(ws[i-1]?ws[i-1][0]:"").toLowerCase(),next=(ws[i+1]?ws[i+1][0]:"").toLowerCase();let r;
+if(/^(N|ART|CAT|COMMA|LETT)\.$/.test(w))r=w.toLowerCase();
+else if(/\d/.test(w))r=w;                                              // codici: AFAM050, 1RIC-CT-10-2026-TD
+else if(/^[A-ZÀ-Þ]+(?:\.[A-ZÀ-Þ]*)+$/.test(w))r=w;                    // R.O.U.S., D.LGS., S.P.A.
+else if(SIGLE_OK.has(core)||ROMANI.test(core))r=w;                    // CCNL, AFAM, III...
+else if(core.length===1&&/[A-ZÀ-Þ]/.test(core))                        // lettere singole: "cat. D" sì, "a tempo" no
+ r=(!/[EAOI]/.test(core)||/^(cat\.?|categoria|fascia|area|classe)$/.test(prev)||/^(livello|fascia|classe)$/.test(next))?w:w.toLowerCase();
+else{const low=w.toLowerCase(),ap=Math.max(low.lastIndexOf("’"),low.lastIndexOf("'")),pre=low.slice(0,ap+1),rest=low.slice(ap+1),key=rest.replace(/[.\/-]+$/,"");
+ r=pre+(prop[key]?prop[key]+rest.slice(key.length):rest)}
+out+=t.slice(last,m.index)+r;last=m.index+w.length});
+out+=t.slice(last);
+return out.replace(/[A-Za-zÀ-ÿ]/,x=>x.toUpperCase());                  // maiuscola iniziale
+}
+const opt=(a,s,t)=>`<option value="">${t}</option>`+a.map(x=>`<option${x===s?" selected":""}>${x}</option>`).join("");
+function lista(){
+const r=rows().filter(c=>stato(c)===st.view),q=st.q.toLowerCase();
+const f=r.filter(c=>(!st.ente||c.ente===st.ente)&&(!st.prof||c.profilo===st.prof)&&(!st.studio||c.studio===st.studio)&&(c.titolo+c.ente+c.profilo).toLowerCase().includes(q))
+.sort((a,b)=>{const d=(a.scad||"9999")<(b.scad||"9999")?-1:1;return st.view==="attivi"?d:-d});
+const enti=[...new Set(r.map(c=>c.ente))].sort();
+$("v").innerHTML=`<div class="tools"><input id="q" type="search" placeholder="Cerca profilo o ente…" value="${st.q}"><select id="e"><option value="">Tutti gli enti</option>${enti.map(e=>`<option${e===st.ente?" selected":""}>${e}</option>`).join("")}</select><select id="p">${opt([...new Set(r.map(c=>c.profilo))].sort(),st.prof,"Tutti i profili")}</select><select id="u">${opt([...new Set(r.map(c=>c.studio))].sort(),st.studio,"Tutti i titoli di studio")}</select></div><div id="l"></div><p class="note">Dati dal portale inPA${AGG?", aggiornati al "+AGG:""}: verificare sempre sul bando ufficiale.</p>`;
+$("l").innerHTML=f.length?f.map(c=>{const cls=st.view==="attivi"?(c.scad?"ok":"wa"):"no";
+const lab=st.view==="attivi"?(c.scad?"Scade il "+fmt(c.scad):"Scadenza da verificare"):"Scaduto il "+fmt(c.scad);
+return`<div class="c"><h3>${esc(bello(c.titolo,c))}</h3><div class="m"><span class="chip"><i class="e">🏛️</i>${esc(c.ente)}</span><span class="chip"><i class="e">📍</i>${(c.province||[c.prov]).join(", ")}</span><span class="chip"><i class="e">💼</i>${c.profilo}</span><span class="chip"><i class="e">🎓</i>${c.studio}${c.studio_dedotto?" (dedotto dal profilo)":""}</span>${c.posti?`<span class="chip"><i class="e">👥</i>${c.posti} ${c.posti==1?"posto":"posti"}</span>`:""}</div><div class="m" style="margin-top:10px"><span class="b ${cls}">${lab}</span></div>${c.nota?`<div class="m" style="margin-top:6px">${esc(c.nota)}</div>`:""}<div style="margin-top:8px"><a href="${c.url}" target="_blank" rel="noopener">Fonte →</a></div></div>`}).join(""):`<div class="empty">Nessun concorso in questa sezione.</div>`;
+$("q").oninput=e=>{st.q=e.target.value;const p=e.target.selectionStart;lista();$("q").focus();$("q").setSelectionRange(p,p)};
+$("e").onchange=e=>{st.ente=e.target.value;lista()};
+$("p").onchange=e=>{st.prof=e.target.value;lista()};
+$("u").onchange=e=>{st.studio=e.target.value;lista()};
+}
+
+function bars(vals,labels){const mx=Math.max(1,...vals);
+return`<div class="bars">`+vals.map((v,i)=>`<div class="bar"><em>${v}</em><i style="height:${v/mx*100*.75}%"></i><span>${labels[i]}</span></div>`).join("")+`</div>`}
+
+function stat(){
+const src=st.demo?simulati():rows(),ys=[...new Set(src.map(c=>+c.pub.slice(0,4)))].sort();
+if(!ys.length)ys.push(oggi.getFullYear());
+if(!ys.includes(st.anno))st.anno=ys[ys.length-1];
+const perY=ys.map(y=>src.filter(c=>+c.pub.slice(0,4)===y).length);
+const perM=MESI.map((_,m)=>src.filter(c=>+c.pub.slice(0,4)===st.anno&&+c.pub.slice(5,7)===m+1).length);
+const tot=perM.reduce((a,b)=>a+b,0),act=perM.filter((v,i)=>true);
+const pk=perM.indexOf(Math.max(...perM));
+const cnt=k=>src.reduce((m,c)=>{const v=c[k]||"Non indicato";m[v]=(m[v]||0)+1;return m},{});
+const perProv=src.reduce((m,c)=>{(c.province||[c.prov]).forEach(p=>m[p]=(m[p]||0)+1);return m},{});
+const perEnte=Object.fromEntries(Object.entries(cnt("ente")).sort((a,b)=>b[1]-a[1]).slice(0,10));
+const hbars=m=>{const e=Object.entries(m).sort((a,b)=>b[1]-a[1]),mx=Math.max(1,...e.map(x=>x[1]));return e.length?e.map(([k,v])=>`<div style="display:flex;align-items:center;gap:8px;font:13px system-ui,sans-serif;margin-bottom:6px"><span style="width:min(230px,42%);flex:none">${k}</span><div style="flex:1;background:var(--bd);border-radius:4px;height:16px"><i style="display:block;height:100%;width:${v/mx*100}%;background:var(--ac);border-radius:4px"></i></div><b style="width:28px;text-align:right">${v}</b></div>`).join(""):`<div class="empty">Nessun dato</div>`};
+$("v").innerHTML=`<label class="tg"><input type="checkbox" id="d" style="flex:none;min-width:0"${st.demo?" checked":""}> Anteprima con dati simulati (solo per vedere i grafici)</label>
+<div class="kp"><div><b>${src.length}</b>concorsi totali</div><div><b>${tot}</b>pubblicati nel ${st.anno}</div><div><b>${tot?MESI[pk]:"–"}</b>mese più attivo nel ${st.anno}</div></div>
+<div class="ch"><h3>Concorsi pubblicati per anno</h3>${bars(perY,ys)}</div>
+<div class="ch"><h3>Per mese nel <select id="y" style="flex:none;min-width:0;padding:4px 8px">${ys.map(y=>`<option${y===st.anno?" selected":""}>${y}</option>`).join("")}</select></h3>${bars(perM,MESI)}</div>
+${st.prov==="Sicilia"?`<div class="ch"><h3>Concorsi per provincia (tutti gli anni)</h3>${hbars(perProv)}</div>`:""}
+<div class="ch"><h3>Enti che pubblicano di più (primi 10)</h3>${hbars(perEnte)}</div>
+<div class="ch"><h3>Tipo di bando</h3>${hbars(cnt("categoria"))}</div>
+<div class="ch"><h3>Profili più richiesti (tutti gli anni)</h3>${hbars(cnt("profilo"))}</div>
+<div class="ch"><h3>Titolo di studio richiesto (tutti gli anni)</h3>${hbars(cnt("studio"))}</div>
+<p class="note">${st.demo?"I numeri mostrati sono inventati: servono solo ad anteprima del grafico.":"Con pochi bandi inseriti i grafici sono quasi vuoti: si riempiranno con i dati reali del backend."}</p>`;
+$("d").onchange=e=>{st.demo=e.target.checked;stat()};
+$("y").onchange=e=>{st.anno=+e.target.value;stat()};
+}
+
+function draw(){menu();
+$("t").textContent=st.view==="stat"?"Statistiche – "+st.prov:st.prov+" · "+VIEWS[st.view];
+$("s").textContent={attivi:"Bandi con domanda ancora aperta",scaduti:"Chiusi negli ultimi 12 mesi",backlog:"Archivio dei bandi più vecchi di 12 mesi",stat:"Quanti concorsi vengono pubblicati nel tempo"}[st.view];
+st.view==="stat"?stat():lista();}
+$("mb").onclick=()=>$("sb").classList.toggle("open");
+$("v").innerHTML='<div class="empty">Caricamento…</div>';
+fetch("data/concorsi.json").then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);const lm=r.headers.get("last-modified");if(lm)AGG=new Date(lm).toLocaleString("it-IT",{dateStyle:"long",timeStyle:"short"});return r.json()})
+.then(d=>{DATA=d;draw()})
+.catch(e=>{draw();$("v").innerHTML=`<div class="c"><h3>Impossibile caricare i dati</h3><div class="m">Apri la pagina da un server locale, non con doppio clic: nella cartella dello scraper lancia <b>python -m http.server</b> e vai su <b>localhost:8000</b>. (${e.message})</div></div>`});
+</script>
+</body>
+</html>
