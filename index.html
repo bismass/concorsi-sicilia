@@ -83,6 +83,10 @@ h1{font-weight:700;font-size:1.75rem}
 .chip .e{font-style:normal;font-size:13px;line-height:1;width:16px;text-align:center;flex:none}
 .b{display:inline-flex;align-items:center;line-height:1.4}
 .tools{max-width:900px}
+.btn{font:600 14px system-ui,sans-serif;padding:9px 14px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);cursor:pointer;white-space:nowrap}
+.btn:hover:not(:disabled){border-color:var(--ac);color:var(--ac)}
+.btn:disabled{opacity:.5;cursor:default}
+.b.nuovo{color:var(--ac);font-weight:700}
 </style>
 </head>
 <body>
@@ -108,7 +112,7 @@ const $=id=>document.getElementById(id);
 try{const t=localStorage.getItem("tema");if(t)document.documentElement.dataset.theme=t}catch(e){}
 const tema=()=>document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
 function setTema(t){document.documentElement.dataset.theme=t;try{localStorage.setItem("tema",t)}catch(e){}}
-let st={prov:"Sicilia",view:"attivi",q:"",ente:"",prof:"",studio:"",anno:oggi.getFullYear(),demo:false};
+let st={prov:"Sicilia",view:"attivi",q:"",ente:"",prof:"",studio:"",ord:"auto",w:"",anno:oggi.getFullYear(),demo:false};
 
 // Dati simulati SOLO per anteprima dei grafici (generatore deterministico)
 function simulati(){let x=7,r=()=>(x=(x*9301+49297)%233280)/233280,o=[];
@@ -163,19 +167,45 @@ out+=t.slice(last);
 return out.replace(/[A-Za-zÀ-ÿ]/,x=>x.toUpperCase());                  // maiuscola iniziale
 }
 const opt=(a,s,t)=>`<option value="">${t}</option>`+a.map(x=>`<option${x===s?" selected":""}>${x}</option>`).join("");
+const GIORNI_NUOVO=7,GIORNI_SCAD=7;
+const loc=s=>{const[a,m,d]=String(s).slice(0,10).split("-");return new Date(+a,m-1,+d)};
+const giorniA=d=>Math.round((loc(d)-oggi)/864e5);                       // negativo = nel passato
+const eNuovo=c=>!!c.pub&&giorniA(c.pub)>=-GIORNI_NUOVO&&giorniA(c.pub)<=0;
+const inScad=c=>!!c.scad&&stato(c)==="attivi"&&giorniA(c.scad)<=GIORNI_SCAD;
+function csvDa(f){
+const q=v=>{v=String(v??"");if(/^[=+\-@]/.test(v))v="'"+v;return'"'+v.replace(/"/g,'""')+'"'};  // il ' evita che Excel esegua formule
+const righe=f.map(c=>[bello(c.titolo,c),c.ente,(c.province||[c.prov]).join(", "),c.profilo,c.studio+(c.studio_dedotto?" (dedotto)":""),c.posti??"",c.pub||"",c.scad||"",VIEWS[stato(c)],c.url]);
+return"\ufeff"+[["Titolo","Ente","Provincia","Profilo","Titolo di studio","Posti","Pubblicato","Scadenza","Sezione","Link"],...righe].map(r=>r.map(q).join(";")).join("\r\n");
+}
+function esporta(f){
+const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([csvDa(f)],{type:"text/csv;charset=utf-8"}));
+a.download=`concorsi-${st.prov.toLowerCase()}-${st.view}-${new Date().toISOString().slice(0,10)}.csv`;
+document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+}
 function lista(){
+if(st.w==="scad"&&st.view!=="attivi")st.w="";
 const r=rows().filter(c=>stato(c)===st.view),q=st.q.toLowerCase();
-const f=r.filter(c=>(!st.ente||c.ente===st.ente)&&(!st.prof||c.profilo===st.prof)&&(!st.studio||c.studio===st.studio)&&(c.titolo+c.ente+c.profilo).toLowerCase().includes(q))
-.sort((a,b)=>{const d=(a.scad||"9999")<(b.scad||"9999")?-1:1;return st.view==="attivi"?d:-d});
+const cmp=(a,b)=>(a.scad||"9999")<(b.scad||"9999")?-1:1;
+const ordine=st.ord==="pub"?(a,b)=>(b.pub||"")<(a.pub||"")?-1:1:st.ord==="lontana"?(a,b)=>-cmp(a,b):(st.view==="attivi"?cmp:(a,b)=>-cmp(a,b));
+const f=r.filter(c=>(!st.ente||c.ente===st.ente)&&(!st.prof||c.profilo===st.prof)&&(!st.studio||c.studio===st.studio)&&(!st.w||(st.w==="nuovi"?eNuovo(c):inScad(c)))&&(c.titolo+c.ente+c.profilo).toLowerCase().includes(q)).sort(ordine);
 const enti=[...new Set(r.map(c=>c.ente))].sort();
-$("v").innerHTML=`<div class="tools"><input id="q" type="search" placeholder="Cerca profilo o ente…" value="${st.q}"><select id="e"><option value="">Tutti gli enti</option>${enti.map(e=>`<option${e===st.ente?" selected":""}>${e}</option>`).join("")}</select><select id="p">${opt([...new Set(r.map(c=>c.profilo))].sort(),st.prof,"Tutti i profili")}</select><select id="u">${opt([...new Set(r.map(c=>c.studio))].sort(),st.studio,"Tutti i titoli di studio")}</select></div><div id="l"></div><p class="note">Dati dal portale inPA${AGG?", aggiornati al "+AGG:""}: verificare sempre sul bando ufficiale.</p>`;
-$("l").innerHTML=f.length?f.map(c=>{const cls=st.view==="attivi"?(c.scad?"ok":"wa"):"no";
-const lab=st.view==="attivi"?(c.scad?"Scade il "+fmt(c.scad):"Scadenza da verificare"):"Scaduto il "+fmt(c.scad);
-return`<div class="c"><h3>${esc(bello(c.titolo,c))}</h3><div class="m"><span class="chip"><i class="e">🏛️</i>${esc(c.ente)}</span><span class="chip"><i class="e">📍</i>${(c.province||[c.prov]).join(", ")}</span><span class="chip"><i class="e">💼</i>${c.profilo}</span><span class="chip"><i class="e">🎓</i>${c.studio}${c.studio_dedotto?" (dedotto dal profilo)":""}</span>${c.posti?`<span class="chip"><i class="e">👥</i>${c.posti} ${c.posti==1?"posto":"posti"}</span>`:""}</div><div class="m" style="margin-top:10px"><span class="b ${cls}">${lab}</span></div>${c.nota?`<div class="m" style="margin-top:6px">${esc(c.nota)}</div>`:""}<div style="margin-top:8px"><a href="${c.url}" target="_blank" rel="noopener">Fonte →</a></div></div>`}).join(""):`<div class="empty">Nessun concorso in questa sezione.</div>`;
+const sel=(id,v,voci)=>`<select id="${id}">${voci.map(([k,t])=>`<option value="${k}"${v===k?" selected":""}>${t}</option>`).join("")}</select>`;
+$("v").innerHTML=`<div class="tools"><input id="q" type="search" placeholder="Cerca profilo o ente…" value="${st.q}"><select id="e"><option value="">Tutti gli enti</option>${enti.map(e=>`<option${e===st.ente?" selected":""}>${e}</option>`).join("")}</select><select id="p">${opt([...new Set(r.map(c=>c.profilo))].sort(),st.prof,"Tutti i profili")}</select><select id="u">${opt([...new Set(r.map(c=>c.studio))].sort(),st.studio,"Tutti i titoli di studio")}</select>`
++sel("w",st.w,[["","Tutti i bandi"],["nuovi","🆕 Solo nuovi (7 giorni)"],...(st.view==="attivi"?[["scad","⏳ In scadenza (7 giorni)"]]:[])])
++sel("o",st.ord,[["auto",st.view==="attivi"?"Scadenza più vicina":"Scaduti di recente"],["pub","Pubblicati di recente"],["lontana","Scadenza più lontana"]])
++`<button id="x" class="btn" ${f.length?"":"disabled"}>⬇ Esporta CSV (${f.length})</button></div><div id="l"></div><p class="note">Dati dal portale inPA${AGG?", aggiornati al "+AGG:""}: verificare sempre sul bando ufficiale.</p>`;
+$("l").innerHTML=f.length?f.map(c=>{
+const g=c.scad?giorniA(c.scad):null,urg=st.view==="attivi"&&g!==null&&g<=GIORNI_SCAD;
+const cls=st.view==="attivi"?(c.scad&&!urg?"ok":"wa"):"no";
+const lab=st.view==="attivi"?(!c.scad?"Scadenza da verificare":g<=0?"Scade oggi":g===1?"Scade domani":urg?`Scade tra ${g} giorni · ${fmt(c.scad)}`:"Scade il "+fmt(c.scad)):"Scaduto il "+fmt(c.scad);
+return`<div class="c"><h3>${esc(bello(c.titolo,c))}</h3><div class="m"><span class="chip"><i class="e">🏛️</i>${esc(c.ente)}</span><span class="chip"><i class="e">📍</i>${(c.province||[c.prov]).join(", ")}</span><span class="chip"><i class="e">💼</i>${c.profilo}</span><span class="chip"><i class="e">🎓</i>${c.studio}${c.studio_dedotto?" (dedotto dal profilo)":""}</span>${c.posti?`<span class="chip"><i class="e">👥</i>${c.posti} ${c.posti==1?"posto":"posti"}</span>`:""}</div><div class="m" style="margin-top:10px">${eNuovo(c)?`<span class="b nuovo">🆕 Nuovo</span>`:""}<span class="b ${cls}">${lab}</span></div>${c.nota?`<div class="m" style="margin-top:6px">${esc(c.nota)}</div>`:""}<div style="margin-top:8px"><a href="${c.url}" target="_blank" rel="noopener">Fonte →</a></div></div>`}).join(""):`<div class="empty">Nessun concorso in questa sezione.</div>`;
 $("q").oninput=e=>{st.q=e.target.value;const p=e.target.selectionStart;lista();$("q").focus();$("q").setSelectionRange(p,p)};
 $("e").onchange=e=>{st.ente=e.target.value;lista()};
 $("p").onchange=e=>{st.prof=e.target.value;lista()};
 $("u").onchange=e=>{st.studio=e.target.value;lista()};
+$("w").onchange=e=>{st.w=e.target.value;lista()};
+$("o").onchange=e=>{st.ord=e.target.value;lista()};
+$("x").onclick=()=>esporta(f);
 }
 
 function bars(vals,labels){const mx=Math.max(1,...vals);
