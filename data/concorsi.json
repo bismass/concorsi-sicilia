@@ -1,5 +1,49 @@
 [
  {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Universita' degli Studi di Palermo",
+  "titolo": "Procedura selettiva, per titoli e colloquio, per l’attribuzione di n. 1 contratto di ricerca ai sensi dell'art. 22 della L. 240/2010, di durata biennale – Responsabile della ricerca: Prof. Alessandro Tamburini",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-26",
+  "scad": "2026-11-25",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=08faa10d446a43488770ed2ac51649a1",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "19d930b8-fc2f-442a-b43f-12ba0b9f32df"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Universita' degli Studi di Catania",
+  "titolo": "Selezione pubblica, per titoli ed esami, per il reclutamento di un/a tecnologo/a di secondo livello, a tempo determinato e pieno - Dipartimento di Ingegneria Industriale Elettrica Elettronica e Informatica dell’Università degli Studi di Catania.",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-10-26",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=01d880e28bf746dfba8993d3d298bc00",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "a2e8595c-b5c8-4ac9-a3e8-751b86ecc4d4"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
   "prov": "Catania",
   "province": [
    "Catania"
