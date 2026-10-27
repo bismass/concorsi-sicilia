@@ -1,5 +1,49 @@
 [
  {
+  "prov": "Caltanissetta",
+  "province": [
+   "Caltanissetta"
+  ],
+  "ente": "Comune di Niscemi",
+  "titolo": "AVVISO SELEZIONE ISTRUTTORE DIRETTIVO CONTABILE A TEMPO PIENO E DETERMINATO PER MESI 12 PROROGABILI",
+  "profilo": "Contabile",
+  "studio": "Diploma",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-10-27",
+  "scad": "2026-11-11",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=670955e8982d4cc18bc87c9feaa03498",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "4590db21-7b0e-475d-8ac3-ebf2f39e0fb2"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Caltanissetta",
+  "province": [
+   "Caltanissetta"
+  ],
+  "ente": "Comune di Niscemi",
+  "titolo": "AVVISO SELEZIONE PER UN AVVOCATO A TEMPO PIENO E DETERMINATO PER 12 MESI PROROGABILI",
+  "profilo": "Amministrativo",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-10-27",
+  "scad": "2026-11-11",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=e06023dc012942c481e44e7d19d4afec",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "bfdfc143-3f1b-4ef5-8d08-a08753419b22"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
   "prov": "Sicilia",
   "province": [
    "Sicilia"
@@ -39,6 +83,28 @@
   "nota": "",
   "media": [
    "a2e8595c-b5c8-4ac9-a3e8-751b86ecc4d4"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Irccs Centro Neurolesi Bonino Pulejo",
+  "titolo": "AVVISO PUBBLICO DI SELEZIONE COMPARATIVA PER LA NOMINA DI N.2 COMPONENTI, DI CUI 1 CON FUNZIONI DI PRESIDENTE, DELL’ORGANISMO INDIPENDENTE DI VALUTAZIONE DELLA PERFORMANCE (O.I.V.) DELL’IRCCS CENTRO NEUROLESI BONINO-PULEJO DI MESSINA, PER IL TRIENNIO 2027-2029",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 2,
+  "pub": "2026-10-26",
+  "scad": "2026-11-25",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=bec3074f3d5b4fd193427e0549c0d6d0",
+  "categoria": "Avviso OIV ",
+  "nota": "",
+  "media": [
+   "ea57ab29-ed70-4374-b70c-82d7037dba45"
   ],
   "studio_fonte": "bando PDF (nessun titolo trovato)",
   "analisi": 2
