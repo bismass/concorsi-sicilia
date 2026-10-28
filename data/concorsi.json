@@ -1,5 +1,47 @@
 [
  {
+  "prov": "Catania",
+  "province": [
+   "Catania"
+  ],
+  "ente": "Consiglio per la ricerca in agricoltura e l'analisi dell'economia agraria",
+  "titolo": "BANDO PER IL CONFERIMENTO DI N. 1 BORSA DI STUDIO, TRAMITE SELEZIONE PUBBLICA PER TITOLI E COLLOQUIO, NELL’AMBITO DEL SERVIZIO PER ATTIVITÀ DI RICERCA “REDORANGE+” DA SVOLGERSI PRESSO IL CREA OFA SEDE DI ACIREALE (CT). CUP: J48H25002290007)",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-28",
+  "scad": "2026-11-12",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=c5be54f50ae4480792d9846b5a95287b",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [],
+  "studio_fonte": "nessun PDF allegato",
+  "analisi": 2
+ },
+ {
+  "prov": "Enna",
+  "province": [
+   "Enna"
+  ],
+  "ente": "Comune di Nicosia - Gestione Giuridica del Personale",
+  "titolo": "AVVISO per la nomina di n.3 componenti esterni del Nucleo di Valutazione della Performance (N.d.V.) del Comune di Nicosia per n. 3 anni",
+  "profilo": "Vari profili",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 3,
+  "pub": "2026-10-28",
+  "scad": "2026-11-07",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=f9d69ec8aa614bf4bf694591e6677870",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "920bf17c-9e4c-472e-a114-094cb6eb4815"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
   "prov": "Caltanissetta",
   "province": [
    "Caltanissetta"
@@ -42,6 +84,136 @@
   ],
   "studio_fonte": "bando PDF (nessun titolo trovato)",
   "analisi": 2
+ },
+ {
+  "prov": "Catania",
+  "province": [
+   "Catania"
+  ],
+  "ente": "Azienda Sanitaria Provinciale Catania",
+  "titolo": "ASP CATANIA Indizione avviso pubblico di mobilità volontaria, con priorità alla mobilità del personale proveniente da altre Amministrazioni collocato in posizione di comando e di assegnazione temporanea ex art 42bis D.L.gs 151/01 da almeno dodici mesi, per la copertura di complessivi n.133 posti della Dirigenza Medica e Sanitaria.",
+  "profilo": "Sanitario",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 133,
+  "pub": "2026-10-27",
+  "scad": "2026-11-26",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=de71b381f5e649908c707ce72c91e95b",
+  "categoria": "Avvisi di mobilità",
+  "nota": "",
+  "media": [
+   "b2ca30f9-8caf-42f6-a0db-a87e8f76cac3"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Comune di Pace del Mela",
+  "titolo": "FUNZIONARIO CONTABILE A TEMPO PARZIALE 24 ORE E DETERMINATO EX ART 110",
+  "profilo": "Contabile",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-27",
+  "scad": "2026-11-11",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3927acb035f24762a31a155ac229cefb",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "44c8d82f-ea77-429d-ad5b-747c04aee983"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Ferrovia Circumetnea",
+  "titolo": "Concorso Pubblico, per Titoli ed Esami, per la Copertura di 1 Posto di Collaboratore di Ufficio – Unità Organizzativa “Negoziale-Acquisti-Gestione Scorte”, par. 175, Area Professionale 3ª, Area Operativa Amministrazione e Servizi, a Tempo Indeterminato, per la Gestione Governativa Ferrovia Circumetnea – Riservato Esclusivamente alle Categorie Riservatarie di cui all’Art. 1 della Legge 68/99 – Codice Concorso Portale del Reclutamento INPA: fc_087_026 – Scadenza 26/11/2026",
+  "profilo": "Amministrativo",
+  "studio": "Diploma",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-27",
+  "scad": "2026-11-26",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=a8ea4fd81f484361a41bc4b3482db575",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "55672c9c-9a8e-4f97-9b25-da74cd37fb70"
+  ],
+  "studio_fonte": "bando PDF (OCR)",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Universita' degli Studi di Palermo",
+  "titolo": "Procedura selettiva, per titoli e colloquio, per l’attribuzione di n. 1 contratto di ricerca ai sensi dell'art. 22 della L. 240/2010, di durata biennale – Responsabile della ricerca: Prof. Giuseppe Aiello",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-27",
+  "scad": "2026-11-06",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=cc24693facb34a9fa0d1a5e90886219f",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "7660f711-1ab5-434c-8593-e7b7943c51f4"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Comune di Bolognetta",
+  "titolo": "AVVISO PUBBLICO DI MANIFESTAZIONE DI INTERESSE PER LA COPERTURA, MEDIANTE UTILIZZO DI GRADUATORIE CONCORSUALI DI ALTRI ENTI, DI N. 1 POSTO A TEMPO PIENO E INDETERMINATO DI “FUNZIONARIO SPECIALISTA IN ATTIVITÀ AMMINISTRATIVE E CONTABILI”, AREA DEI FUNZIONARI E DELL’ELEVATA QUALIFICAZIONE, DA DESTINARE ALLA RESPONSABILITÀ DELL’AREA ECONOMICO-FINANZIARIA E TRIBUTI",
+  "profilo": "Contabile",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-27",
+  "scad": "2026-11-11",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=64701a2566d1410086080b8481b9f662",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "0e3ad64c-44ae-42a5-9fa5-a257ba66206f"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Azienda Ospedaliera Ospedali Riuniti Villa Sofia Cervello",
+  "titolo": "AOOR VILLA SOFIA CERVELLO DI PALERMO - AVVISO PUBBLICO DI MOBILITÀ VOLONTARIA, PER TITOLI E COLLOQUIO, AI SENSI DELL’ART. 30 DEL D.LGS. N. 165/01 E S.M.I., E DELL’ART. 54 DEL CCNL AREA SANITÀ TRIENNIO 2016/2018, PER LA COPERTURA A TEMPO INDETERMINATO ED A TEMPO PIENO DI N. 2 POSTI DI DIRIGENTE MEDICO PER L’U.O.S.D. CHIRURGIA PLASTICA",
+  "profilo": "Sanitario",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 2,
+  "pub": "2026-10-27",
+  "scad": "2026-11-26",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=323f2faa935a493aabc151b958fa8cc9",
+  "categoria": "Avvisi di mobilità",
+  "nota": "",
+  "media": [
+   "5c86265c-0b10-4eaa-9a8b-72f6a67a320c"
+  ]
  },
  {
   "prov": "Sicilia",
