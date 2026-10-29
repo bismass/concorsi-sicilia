@@ -46,6 +46,92 @@
   "province": [
    "Caltanissetta"
   ],
+  "ente": "Istituto Superiore di Studi Musicali Vincenzo Bellini di Caltanissetta",
+  "titolo": "BANDO DI CONCORSO A TEMPO PIENO ED INDETERMINATO DI UN DOCENTE AFAM 010 CORNO",
+  "profilo": "Vari profili",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-10-28",
+  "scad": "2026-11-30",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=02f98a6b03c941bfaacf0e78d225a41a",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "05fb5e6f-8856-4d6d-bd4d-50ef55cf780f"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Caltanissetta",
+  "province": [
+   "Caltanissetta"
+  ],
+  "ente": "Istituto Superiore di Studi Musicali Vincenzo Bellini di Caltanissetta",
+  "titolo": "SAXOFONO BANDO CONTRATTI DI COLLABORAZIONE",
+  "profilo": "Vari profili",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-28",
+  "scad": "2026-11-13",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=d0ec854ab9df4f6bbb538f602c7bcc73",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "b60931b6-1db4-4763-8938-82150baac4a3"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Istituto Superiore di Studi Musicali Vincenzo Bellini di Caltanissetta",
+  "titolo": "BANDO PER IL RECLUTAMENTO A TEMPO DETERMINATO E DEFINITO DI DOCENTI NEI CONSERVATORI DI MUSICA a.a. 2026/2027 – 2027/2028 AFAM 016 EUFONIO (ex CODI/11)",
+  "profilo": "Vari profili",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-28",
+  "scad": "2026-11-12",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=5bcd084056d24613a07d733b0e00ebf5",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "88d6830b-707d-4289-9824-13ca90e388d7"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Comune di Santa Cristina Gela",
+  "titolo": "SELEZIONE PER SOLI ESAMI PER LA COPERTURA DI N. 1 POSTO DI ASSISTENTE SOCIALE (AREA FUNZIONARI E. Q.) EX CAT. D A TEMPO INDETERMINATO E PARZIALE PER 24 ORE SETTIMANALI A VALERE SULLA QUOTA SERVIZI FONDO POVERTA’",
+  "profilo": "Educativo/Sociale",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-28",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=08b5c32362a44ba48fdd4f1de9599b2d",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [],
+  "studio_fonte": "nessun PDF allegato",
+  "analisi": 2
+ },
+ {
+  "prov": "Caltanissetta",
+  "province": [
+   "Caltanissetta"
+  ],
   "ente": "Comune di Niscemi",
   "titolo": "AVVISO SELEZIONE ISTRUTTORE DIRETTIVO CONTABILE A TEMPO PIENO E DETERMINATO PER MESI 12 PROROGABILI",
   "profilo": "Contabile",
