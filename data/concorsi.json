@@ -1,5 +1,71 @@
 [
  {
+  "prov": "Trapani",
+  "province": [
+   "Trapani"
+  ],
+  "ente": "Azienda Sanitaria Provinciale di Trapani",
+  "titolo": "Avviso pubblico per la formulazione di una graduatoria biennale per il conferimento di un incarico libero professionale, ai sensi dell’art. 15octies per la realizzazione del “Progetto Health for All 2” nel profilo di ESPERTO in PEER EDUCATION",
+  "profilo": "Vari profili",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-29",
+  "scad": "2026-11-13",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=926d1a023aa0449c8215509d0703747e",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "be13bd61-09f6-4237-b12a-e4029b650300"
+  ],
+  "studio_fonte": "bando PDF (OCR)",
+  "analisi": 2
+ },
+ {
+  "prov": "Agrigento",
+  "province": [
+   "Agrigento"
+  ],
+  "ente": "Comune di Bivona",
+  "titolo": "AVVISO PUBBLICO DI SELEZIONE PER IL CONFERIMENTO, AI SENSI DELL’ART. 110, COMMA 1, DEL D.LGS. N. 267/2000, DI UN INCARICO A TEMPO DETERMINATO E PARZIALE (N. 18 ORE SETTIMANALI), DI SPECIALISTA ATTIVITÀ TECNICHE – AREA DEI FUNZIONARI E DELL’ELEVATA QUALIFICAZIONE.",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-29",
+  "scad": "2026-11-11",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=346959baa67845b7b45ef21959972495",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "a29d2a26-19b5-490c-8d88-1ff4d4597ab2"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Comune di Floresta",
+  "titolo": "AVVISO DI MOBILITÀ ESTERNA EX ART. 30 D.LGS. N. 165/2001, PER LA COPERTURA DI N. 1 POSTO DI “AGENTE DI POLIZIA MUNICIPALE” (AREA CONTRATTUALE ISTRUTTORE) A TEMPO PARZIALE ED INDETERMINATO 12 H PRESSO IL COMUNE DI FLORESTA (ME)",
+  "profilo": "Polizia locale",
+  "studio": "Diploma",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-10-29",
+  "scad": "2026-11-28",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=91bc8d89f228450894271fe1caf00696",
+  "categoria": "Avvisi di mobilità",
+  "nota": "",
+  "media": [
+   "823c543f-bca3-49e9-bc1b-8a97ef5bac0b"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
   "prov": "Catania",
   "province": [
    "Catania"
