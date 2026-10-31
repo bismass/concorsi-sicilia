@@ -4,6 +4,50 @@
   "province": [
    "Trapani"
   ],
+  "ente": "Conservatorio di Musica Antonio Scontrino di Trapani",
+  "titolo": "CONCORSO PUBBLICO, PER TITOLI ED ESAMI, PER L’ASSUNZIONE A TEMPO PIENO E INDETERMINATO DI N. 1 ASSISTENTE – SETTORE PROFESSIONALE AMMINISTRATIVO/GESTIONALE",
+  "profilo": "Amministrativo",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-30",
+  "scad": "2026-11-29",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=082255e3961843a9b1658a48a2e2a468",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "e2dcbc57-de18-4491-add3-d0df5a97efc8"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Comune di Castelbuono",
+  "titolo": "AVVISO PER L’ACQUISIZIONE DI MANIFESTAZIONI DI INTERESSE PER L’ASSEGNAZIONE TEMPORANEA A TEMPO PIENO PRESSO IL COMUNE DI CASTELBUONO, DI N. 1 UNITA’ DI PERSONALE DIPENDENTE DI PP.AA. DI CUI ALL’ART. 1, C. 2 SEXIES, DEL D. LGS. N. 165/2001, CON PROFILO DI ISTRUTTORE TECNICO - GEOMETRA – AREA ISTRUTTORI CCNL FUNZIONI LOCALI 16/11/2022, CON DECORRENZA DAL 15/12/2026 FINO AL 15/12/2027",
+  "profilo": "Tecnico",
+  "studio": "Diploma",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-10-30",
+  "scad": "2026-11-30",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=7e479e0093384b5a857269695a8618ae",
+  "categoria": "Avvisi di mobilità",
+  "nota": "",
+  "media": [
+   "50a046ed-ce60-41a3-aa1a-cb8b7f79d6bf"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Trapani",
+  "province": [
+   "Trapani"
+  ],
   "ente": "Azienda Sanitaria Provinciale di Trapani",
   "titolo": "Avviso pubblico per la formulazione di una graduatoria biennale per il conferimento di un incarico libero professionale, ai sensi dell’art. 15octies per la realizzazione del “Progetto Health for All 2” nel profilo di ESPERTO in PEER EDUCATION",
   "profilo": "Vari profili",
@@ -61,6 +105,116 @@
   "nota": "",
   "media": [
    "823c543f-bca3-49e9-bc1b-8a97ef5bac0b"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "CONSERVATORIO DI MUSICA ARCANGELO CORELLI",
+  "titolo": "BANDO PER IL RECLUTAMENTO A TEMPO INDETERMINATO - AFAM 019 - STRUMENTI A PERCUSSIONE",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-29",
+  "scad": "2026-11-15",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=46c4344792824aaa950de20badb83a36",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "14cd3110-43c3-4190-8555-46ec2a2614c6"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "CONSERVATORIO DI MUSICA ARCANGELO CORELLI",
+  "titolo": "BANDO PER IL RECLUTAMENTO A TEMPO INDETERMINATO - AFAM 047 - TECNOLOGIE DEL SUONO E DELLA MULTIMEDIALITA' PROFILO ELETTROACUSTICA",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-29",
+  "scad": "2026-11-15",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=99752fdc27864f95b4f55d69e425ba34",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "4d9a7bb2-92d8-4be7-bacc-a813801299e0"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "CONSERVATORIO DI MUSICA ARCANGELO CORELLI",
+  "titolo": "BANDO PER IL RECLUTAMENTO A TEMPO INDETERMINATO - AFAM 049 ORCHESTRA (ESERCITAZIONI ORCHESTRALI)",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-29",
+  "scad": "2026-11-15",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=f382aed44fc9477899daceee855926cd",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "86a1fe3e-72a9-457e-bd95-31cf71dbd861"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "CONSERVATORIO DI MUSICA ARCANGELO CORELLI",
+  "titolo": "BANDO PER IL RECLUTAMENTO A TEMPO INDETERMINATO - AFAM 050 LETTURA DELLA PARTITURA",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-10-29",
+  "scad": "2026-11-15",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=59fd8b3cd5924b9cb0fc3a5fefacbbd9",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "fcbe80c5-41b0-413e-a9da-a2beff581cce"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "CONSERVATORIO DI MUSICA ARCANGELO CORELLI",
+  "titolo": "BANDO PER IL RECLUTAMENTO A TEMPO INDETERMINATO - AFAM 052 - TEORIA RITMICA E PERCEZIONE MUSICALE",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 2,
+  "pub": "2026-10-29",
+  "scad": "2026-11-15",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=fa4340d8d03f4f8990619fe5ec835458",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "14fb4370-6cea-445d-a50b-ebbb8e87211e"
   ],
   "studio_fonte": "bando PDF (nessun titolo trovato)",
   "analisi": 2
@@ -699,7 +853,7 @@
   "studio_dedotto": true,
   "posti": 1,
   "pub": "2026-10-22",
-  "scad": "2026-11-02",
+  "scad": "2026-11-07",
   "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=273633e0b158453e95aa15a6e54263fc",
   "categoria": "Selezione Professionisti ed Esperti",
   "nota": "",
