@@ -1,5 +1,108 @@
 [
  {
+  "prov": "Catania",
+  "province": [
+   "Catania"
+  ],
+  "ente": "Comune di Catania",
+  "titolo": "Avviso Pubblico per il reclutamento di n. 2 “Esperti in progettazione, esecuzione e gestione di opere e interventi pubblici ad elevata specializzazione ambientale e paesaggistica” – Legge n. 79 del 29 Giugno 2022 a valere sulle risorse di cui al programma HORIZON-MISS-2022-CLIMA-01-06 n.101112731 nell’ambito del progetto CARDIMED “Climate Adaptation and Resilience Demonstrated In the MEDiterranean region”; annualità 2026/2027/2028.",
+  "profilo": "Vari profili",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 2,
+  "pub": "2026-11-02",
+  "scad": "2026-11-17",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=a733bed13d414f2eae4029d7421cfb09",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": ""
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Comune di Alcamo",
+  "titolo": "AVVISO PUBBLICO DI PROCEDURA COMPARATIVA, PER TITOLI, PER L'INDIVIDUAZIONE DEL REVISORE CONTABILE INDIPENDENTE DEL PROGETTO SAI [PROG-757-PR-4] DEL COMUNE DI ALCAMO – CATEGORIA “ORDINARI” – TRIENNIO 2026/2028",
+  "profilo": "Contabile",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-02",
+  "scad": "2026-11-17",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=08a2f632bef640e2837e0597534b9afe",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "4537506d-d8da-41bc-a792-946524807cae"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Azienda Ospedaliera Ospedali Riuniti Villa Sofia Cervello",
+  "titolo": "AOOR Villa Sofia - Cervello Palermo - SELEZIONE PUBBLICA PER LA FORMULAZIONE DI GRADUATORIA PER L’EVENTUALE CONFERIMENTO DI INCARICHI A TEMPO DETERMINATO DI TECNICO AUDIOMETRISTA – AREA DEI PROFESSIONISTI DELLA SALUTE E DEI FUNZIONARI – RUOLO SANITARIO",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-02",
+  "scad": "2026-12-02",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=f5a3dbf1266f48e297ccc3c315fd3b6f",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [],
+  "studio_fonte": "nessun PDF allegato",
+  "analisi": 2
+ },
+ {
+  "prov": "Catania",
+  "province": [
+   "Catania"
+  ],
+  "ente": "Comune di Bronte",
+  "titolo": "Avviso Pubblico di Selezione di n. 1 Supervisore esperto di Assistenti Sociali con cui stipulare un contratto di lavoro autonomo",
+  "profilo": "Vari profili",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-02",
+  "scad": "2026-11-15",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=91c1b299dd354f2895e6a1f6062b5717",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "4c269db2-ba80-4ca0-975e-15a4b96dffd8"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Istituto Nazionale di Astrofisica - INAF",
+  "titolo": "Understanding the long and the short time-scale variability in accreting High Mass Binaries Cod: 2026INAFINCRIC-IPA-105020446-003",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-01",
+  "scad": "2026-12-02",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=f23bdefc669d46ea9c8280491cf71a19",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "2df93c01-0c22-4be5-9f7f-3c7164237b8f"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
   "prov": "Trapani",
   "province": [
    "Trapani"
