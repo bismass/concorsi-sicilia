@@ -1,5 +1,25 @@
 [
  {
+  "prov": "Ragusa",
+  "province": [
+   "Ragusa"
+  ],
+  "ente": "Comune di Giarratana",
+  "titolo": "AVVISO DI SELEZIONE INTERNA PER L’ATTRIBUZIONE DELLA PROGRESSIONE VERTICALE IN DEROGA PER NUMERO 1 (UNO) PASSAGGIO ALL’AREA DEGLI ISTRUTTORI – SETTORE II TECNICO – GOVERNO DEL TERRITORIO",
+  "profilo": "Amministrativo",
+  "studio": "Diploma",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-03",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=1914e4501ad04507a36df034d0b9ef7b",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [],
+  "studio_fonte": "nessun PDF allegato",
+  "analisi": 2
+ },
+ {
   "prov": "Catania",
   "province": [
    "Catania"
@@ -78,6 +98,28 @@
    "4c269db2-ba80-4ca0-975e-15a4b96dffd8"
   ],
   "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Caltanissetta",
+  "province": [
+   "Caltanissetta"
+  ],
+  "ente": "Comune di Niscemi",
+  "titolo": "RIAPERTURA TERMINI DOMANDE CONCORSI PER RECLUTARE A TEMPO DETERMINATO FUNZIONARI TECNICI ( DUE INGEGNERI ED UN ARCHITETTO )",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 3,
+  "pub": "2026-11-02",
+  "scad": "2026-11-12",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=0f36a19d8a3c433f8b075cbb264faaeb",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "c2678216-46b1-441a-ae79-50512e2ee100"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
   "analisi": 2
  },
  {
