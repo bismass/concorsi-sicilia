@@ -1,5 +1,135 @@
 [
  {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Azienda Sanitaria Provinciale Ragusa",
+  "titolo": "Avviso pubblico per titoli e colloquio mediante comparazione dei curricula professionali, per la formulazione di graduatorie per il conferimento di incarichi a tempo determinato con rapporto di lavoro libero professionale, ai sensi dell’art. 15 octies del d. lgs. n. 502/92 e ss.mm.ii. a n. 1 Assistente sociale. PNES 2021-2027, Il genere al centro della cura – Ti ASPetto a casa (SI4K.2_01RG01) CUP: I49I25000370007.",
+  "profilo": "Educativo/Sociale",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-04",
+  "scad": "2026-11-19",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=6a1f5cc76cf142069f8dce8c24f5f30f",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "7eb7a123-12f5-4ad0-b912-e7cb29a3cb93"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Azienda Sanitaria Provinciale Ragusa",
+  "titolo": "Avviso pubblico per la selezione per titoli e colloquio, per l’attribuzione di n. 2 borse di studio finanziate dalla New Service s.r.l., dall’AIL e dalla Beone Medicines Italy srl per Infermieri, con selezione secondo le modalità previste dal vigente regolamento aziendale per la stipula di contratti a tempo determinato ai sensi dell’articolo 15 octies del decreto legislativo n. 502/92 e ss.ii.mm. approvato con deliberazione n. 1773 del 03/07/2020.",
+  "profilo": "Sanitario",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 2,
+  "pub": "2026-11-04",
+  "scad": "2026-11-19",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=5c66d78b269f4ad09f3a800d4e816859",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "5cde8b2a-618f-4dae-9541-e7b748e0bb53"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Ragusa",
+  "province": [
+   "Ragusa"
+  ],
+  "ente": "Comune di Giarratana",
+  "titolo": "Avviso di selezione interna per l'attribuzione della progressione tra aree (progressione verticale) c.d. in deroga) ai sensi dell'art. 13 comma 6 del CCNNL 16.11.2022, come modificato dall'art. 12 co. 1 del CCNNL 2022-2024 per numero 1 (uno) part time 24 ore passaggio all'area degli operatori esperti (autista) settore III \"socio- scolastico-culturale\" Servizi scolastici e di trasporto",
+  "profilo": "Vari profili",
+  "studio": "Licenza media",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-04",
+  "scad": "2026-11-19",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=c8ef4950e6994951b7e0ab8cd027cc90",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "f985e9d2-9654-4819-9ebd-80c57cab2e34"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Ministero delle infrastrutture e della mobilita' sostenibili - Capitaneria di porto Guardia Costiera Palermo",
+  "titolo": "Capitaneria di Porto di Palermo Ente gestore dell'Area Marina Protetta di Capo Gallo Isola delle Femmine",
+  "profilo": "Amministrativo",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-04",
+  "scad": "2026-11-19",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=87579d489481467992848655b0f57672",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "a2dacbf9-f6fc-4c6e-9dba-dab8fcfd5da8"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Azienda Ospedaliera Ospedali Riuniti Villa Sofia Cervello",
+  "titolo": "AOOR Villa Sofia - Cervello Palermo - Avviso pubblico di mobilità volontaria di n. 3 posti di Infermiere con documentata esperienza in sala operatoria.",
+  "profilo": "Sanitario",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 3,
+  "pub": "2026-11-04",
+  "scad": "2026-12-04",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=da5ee841fae842c88ad8fe4776b4c362",
+  "categoria": "Avvisi di mobilità",
+  "nota": "",
+  "media": [],
+  "studio_fonte": "nessun PDF allegato",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Azienda Ospedaliera Ospedali Riuniti Villa Sofia Cervello",
+  "titolo": "AOOR VILLA SOFIA CERVELLO DI PALERMO - Avviso pubblico di mobilità volontaria, per titoli e colloquio, per la copertura a tempo indeterminato ed a tempo pieno di n. 1 posto di Dirigente Medico per l’U.O.C. di Medicina Trasfusionale e dei Trapianti",
+  "profilo": "Sanitario",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-04",
+  "scad": "2026-12-04",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=8710ad4e67fb424c9fa68d32b3836659",
+  "categoria": "Avvisi di mobilità",
+  "nota": "",
+  "media": [
+   "899c0de1-d0c1-45b6-88ac-9c1a37166cd3"
+  ],
+  "studio_fonte": "bando PDF (OCR, nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
   "prov": "Ragusa",
   "province": [
    "Ragusa"
@@ -17,6 +147,28 @@
   "nota": "",
   "media": [],
   "studio_fonte": "nessun PDF allegato",
+  "analisi": 2
+ },
+ {
+  "prov": "Agrigento",
+  "province": [
+   "Agrigento"
+  ],
+  "ente": "Comune di Lampedusa e Linosa",
+  "titolo": "AVVISO DI PROCEDURA VALUTATIVA PER LA PROGRESSIONE VERTICALE (CD. “PROGRESSIONE IN DEROGA”), AI SENSI DELL’ART. 13 CCNL 16/11/2022, COME MODIFICATO DALL’ART.12 DEL CCNL DEL 23/02/2026, E ART. 52, COMMA 1 BIS DEL D.LGS.165/2001, RISERVATA AL PERSONALE CON RAPPORTO DI LAVORO A TEMPO INDETERMINATO DEL COMUNE DI LAMPEDUSA E LINOSA PER L’ASSUNZIONE DI N. 1 FUNZIONARIO AMMINISTRATIVO, INQUADRATO NELL’AREA DEI FUNZIONARI - E.Q. (EX CAT. D).",
+  "profilo": "Amministrativo",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-03",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=ebc6a92b60574ffd896ddc6bb3fabe9f",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "6d99300a-cb4e-4d29-ba6e-dd08d5d08ac0"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
   "analisi": 2
  },
  {
@@ -2949,7 +3101,7 @@
   "studio_dedotto": false,
   "posti": 1,
   "pub": "2026-09-30",
-  "scad": "2027-10-30",
+  "scad": "2026-10-30",
   "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=7629ac0e947b4caaa7c74a5d1b934b2d",
   "categoria": "Concorso",
   "nota": "",
