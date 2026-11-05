@@ -49,7 +49,7 @@
    "Ragusa"
   ],
   "ente": "Comune di Giarratana",
-  "titolo": "Avviso di selezione interna per l'attribuzione della progressione tra aree (progressione verticale) c.d. in deroga) ai sensi dell'art. 13 comma 6 del CCNNL 16.11.2022, come modificato dall'art. 12 co. 1 del CCNNL 2022-2024 per numero 1 (uno) part time 24 ore passaggio all'area degli operatori esperti (autista) settore III \"socio- scolastico-culturale\" Servizi scolastici e di trasporto",
+  "titolo": "AVVISO DI SELEZIONE INTERNA PER L’ATTRIBUZIONE DELLA PROGRESSIONE TRA AREE (PROGRESSIONE VERTICALE) C.D. IN DEROGA AI SENSI DELL’ART.13, COMMA 6 DEL CCNL 16.11.2022, COME MODIFICATO DALL’ART.12 COMMA 1 DEL CCNL 2022-2024, SOTTOSCRITTO IL 23.02.2026 PER NUMERO 1 (UNO) PASSAGGIO ALL’AREA DEGLI OPERATORI ESPERTI- AUTISTA – SETTORE III SOCIOSCOLASTICO- CULTURALE - SERVIZI SCOLASTICI E DI TRASPORTO",
   "profilo": "Vari profili",
   "studio": "Licenza media",
   "studio_dedotto": false,
@@ -127,6 +127,50 @@
    "899c0de1-d0c1-45b6-88ac-9c1a37166cd3"
   ],
   "studio_fonte": "bando PDF (OCR, nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Trapani",
+  "province": [
+   "Trapani"
+  ],
+  "ente": "Azienda Sanitaria Provinciale di Trapani",
+  "titolo": "RIAPERTURA TERMINI Avviso pubblico per la formulazione di una graduatoria biennale per il conferimento di incarichi di lavoro autonomo - ai sensi dell’art. 7, co. 6 del D.Lgs. 165/2001, con contratto di lavoro libero professionale, da destinare ai P.O. aziendali, a Dirigenti Medici nella disciplina di Cardiologia",
+  "profilo": "Sanitario",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-04",
+  "scad": "2026-12-31",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3c3cf91878af4637974f287efb53d7a1",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "9115158c-0806-49bf-a497-ce056c38b085"
+  ],
+  "studio_fonte": "bando PDF (OCR, nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Comune di Giarratana",
+  "titolo": "AVVISO DI SELEZIONE INTERNA PER L’ATTRIBUZIONE DELLA PROGRESSIONE TRA AREE (PROGRESSIONE VERTICALE) C.D. IN DEROGA AI SENSI DELL’ART.13, COMMA 6 DEL CCNL 16.11.2022, COME MODIFICATO DALL’ART.12 COMMA 1 DEL CCNL 2022-2024, SOTTOSCRITTO IL 23.02.2026 PER NUMERO 1 (UNO) PASSAGGIO ALL’AREA DEGLI ISTRUTTORI – ISTRUTTORE DI VIGILANZA- SETTORE I- AMMINISTRATIVO-FINANZIARIO- SERVIZIO DI VIGILANZA E CONTROLLO DEL TERRITORIO",
+  "profilo": "Amministrativo",
+  "studio": "Diploma",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-04",
+  "scad": "2026-11-19",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=e2cee5619cf74b85bfb1fd5857336bf6",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "5455f5dc-b576-4bcc-b1bb-6024f15c8b62"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
   "analisi": 2
  },
  {
