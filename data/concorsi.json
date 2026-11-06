@@ -1,5 +1,201 @@
 [
  {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Istituto Autonomo Case Popolari di Messina",
+  "titolo": "AVVISO PUBBLICO DI SELEZIONE PER LA NOMINA DELL’ORGANISMO INDIPENDENTE DI VALUTAZIONE (OIV), IN FORMA MONOCRATICA, DELL’ ISTITUTO AUTONOMO CASE POPOLARI DI MESSINA, DI CUI ALL’ ART. 14 DEL D.LGS. 150/2009 .",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-06",
+  "scad": "2026-11-23",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=67951b129d2241f78b9d585cbdc758b2",
+  "categoria": "Avviso OIV ",
+  "nota": "",
+  "media": [],
+  "studio_fonte": "nessun PDF allegato",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Ordine dei Dottori Commercialisti e degli Esperti Contabili di Palermo",
+  "titolo": "ORDINE DEI DOTTORI COMMERCIALISTI E DEGLI ESPERTI CONTABILI DI PALERMO - BANDO DI CONCORSO PUBBLICO PER LA COPERTURA DI N. 1 POSTO A TEMPO PIENO E INDETERMINATO DI FUNZIONARIO – EX AREA C - AREA AMMINISTRATIVO CONTABILE CCNL COMPARTO FUNZIONI CENTRALI",
+  "profilo": "Contabile",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-06",
+  "scad": "2026-11-30",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=4d6bb1230c8049259825463ea4bdbef2",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "04b66b1d-52aa-4868-aab8-fa95c1943d11"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Universita' degli Studi di Palermo",
+  "titolo": "n. 1 incarico di ricerca, ai sensi dell’art. 22-ter della legge 240/2010, della durata di n. 12 mesi TUTOR prof. Agostino Igor Mirulla- Codice Concorso: I-RIC 34-2026",
+  "profilo": "Vari profili",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-06",
+  "scad": "2026-11-21",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=fc89984a95d9471caef1b5c8d7f2f0fb",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "7ef27765-55aa-4a70-a0d0-b1eff8a0f5b3"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Universita' degli Studi di Palermo",
+  "titolo": "n. 1 incarico di ricerca, ai sensi dell’art. 22-ter della legge 240/2010, della durata di n. 12 mesi TUTOR prof. Alessandro Galia- Codice Concorso: I-RIC 31-2026",
+  "profilo": "Vari profili",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-06",
+  "scad": "2026-12-06",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=b0fb7c25527f47c094b2bf18679fcd55",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "8d9724ec-ec3e-461c-8b7a-a187ae136cba"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Universita' degli Studi di Palermo",
+  "titolo": "n. 1 incarico di ricerca, ai sensi dell’art. 22-ter della legge 240/2010, della durata di n. 12 mesi TUTOR prof. Vito Ricotta- Codice Concorso: I-RIC 35-2026",
+  "profilo": "Vari profili",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-06",
+  "scad": "2026-11-21",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=1cbae21b7ffe4291a98ffe30ee8870f7",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "b7a7c248-c0cd-4bbd-8d32-756dd499b9ee"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Comune di Castelmola",
+  "titolo": "AVVISO PUBBLICO PER LA COSTITUZIONE DI UN RAPPORTO DI LAVORO A TEMPO DETERMINATO E PIENO MEDIANTE CONTRATTO EX ART. 110, COMMA 1, DEL D.LGS. N. 267/2000, PER LA COPERTURA DI N.1 POSTO DI FUNZIONARIO CONTABILE (QUALIFICA FUNZIONARIO ED E.Q. EX D.1).",
+  "profilo": "Contabile",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-05",
+  "scad": "2026-11-16",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=c9008604849049ab9ae6f463a9aec848",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "e7f7cf58-be65-4b35-b356-d1035ec32794"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Ferrovia Circumetnea",
+  "titolo": "AVVISO DI MANIFESTAZIONE DI INTERESSE – Codice Avviso Portale del Reclutamento INPA: fc_087_027 – Scadenza 16/11/2026 – all’assunzione a tempo pieno e determinato di 36 mesi di n. 1 unità di personale rivolto ai candidati idonei della graduatoria definitiva di merito del “Concorso pubblico per la costituzione di n. 1 rapporto di lavoro subordinato a tempo indeterminato per la figura professionale di Specialista Amm.vo – U.O. “Contabilità-Bilancio-Controllo di Gestione” – codice InPA fc_087_012”",
+  "profilo": "Contabile",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-05",
+  "scad": "2026-11-16",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=dd2525d6692d4b0bab8ae02d7be312e2",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "1eebd1d3-fe84-4a9e-a8ce-300f4ef7a85a"
+  ],
+  "studio_fonte": "bando PDF (OCR, nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Ferrovia Circumetnea",
+  "titolo": "AVVISO DI MANIFESTAZIONE DI INTERESSE – Codice Avviso Portale del Reclutamento INPA: fc_087_028 – Scadenza 16/11/2026 – all’assunzione a tempo pieno e determinato di 36 mesi di n. 1 unità di personale rivolto ai candidati idonei della graduatoria definitiva di merito del “Concorso pubblico per la costituzione di n. 9 rapporti di lavoro subordinato a tempo indeterminato per la figura professionale di Specialista Tecnico Ingegnere/Architetto – Area Civile – codice InPA fc_087_013”",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-05",
+  "scad": "2026-11-16",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=9212531fa7a14411abcf37474455ce60",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "a1857f72-809b-4ca9-9e47-bfbaec51bd06"
+  ],
+  "studio_fonte": "bando PDF (OCR, nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Ferrovia Circumetnea",
+  "titolo": "AVVISO DI MANIFESTAZIONE DI INTERESSE – Codice Avviso Portale del Reclutamento INPA: fc_087_029 – Scadenza 16/11/2026 – all’assunzione a tempo pieno e determinato di 36 mesi di n. 1 unità di personale rivolto ai candidati idonei della graduatoria definitiva di merito del “Concorso pubblico per la costituzione di n. 5 rapporti di lavoro subordinato a tempo indeterminato per la figura professionale di Specialista Tecnico Ingegnere – Area Tecnologie/Officine – par. 193, codice InPA fc_087_019”",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-05",
+  "scad": "2026-11-16",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=411a70ba31b14d8888b0123385418796",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "deb52a84-b509-4ce8-a93e-208056a7721c"
+  ],
+  "studio_fonte": "bando PDF (OCR, nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
   "prov": "Sicilia",
   "province": [
    "Sicilia"
@@ -396,7 +592,7 @@
   "studio_dedotto": false,
   "posti": 1,
   "pub": "2026-10-30",
-  "scad": "2026-11-29",
+  "scad": "2026-12-04",
   "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=082255e3961843a9b1658a48a2e2a468",
   "categoria": "Concorso",
   "nota": "",
