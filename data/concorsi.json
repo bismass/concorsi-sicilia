@@ -108,6 +108,50 @@
   "analisi": 2
  },
  {
+  "prov": "Trapani",
+  "province": [
+   "Trapani"
+  ],
+  "ente": "Comune di Marsala - AFFARI GENERALI - ISTITUZIONALI E RISORSE UMANE",
+  "titolo": "AVVISO DI SELEZIONE PUBBLICA PER CURRICULUM E COLLOQUIO FINALIZZATA AL CONFERIMENTO DI INCARICO DIRIGENZIALE A TEMPO DETERMINATO, AI SENSI DELL'ART. 110, COMMA 2, DEL D.LGS N. 267/2000 E S.M.I. PER LA COPERTURA DI N.1 (UNO) POSTO DI DIRIGENTE TECNICO PER IL SETTORE DENOMINATO “UFFICIO SPECIALE, ATTUAZIONE PNRR, AGENDA URBANA E FUA”.",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-06",
+  "scad": "2026-11-21",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=9f895d6cab634acbb588541d6b6eeb60",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "d5c0d698-41f4-43e4-b307-8d35229f591b"
+  ],
+  "studio_fonte": "bando PDF (OCR)",
+  "analisi": 2
+ },
+ {
+  "prov": "Siracusa",
+  "province": [
+   "Siracusa"
+  ],
+  "ente": "Comune di Floridia",
+  "titolo": "Indizione della procedura di selezione comparativa per n. 1 unità Funzionario Tecnico - Area dei Funzionari e delle Elevate Qualificazioni ex Cat. D, mediante art. 110 TUEL, a tempo determinato per un anno prorogabile fino alla scadenza naturale del mandato sindacale.",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-06",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=083af9496c694a9eb36f2206be25936d",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "079f61c8-3eb9-4356-90a7-f1a85c5e67d0"
+  ],
+  "studio_fonte": "bando PDF (OCR)",
+  "analisi": 2
+ },
+ {
   "prov": "Messina",
   "province": [
    "Messina"
