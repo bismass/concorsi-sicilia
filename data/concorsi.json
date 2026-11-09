@@ -1,5 +1,71 @@
 [
  {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Azienda Sanitaria Provinciale Ragusa",
+  "titolo": "Procedura selettiva, per titoli e colloquio, per la formulazione di graduatorie da utilizzare per il conferimento di eventuali incarichi a tempo determinato, nell’Ambito dell’Area degli Assistenti per il profilo di Assistente Tecnico Geometra, Assistente Tecnico Perito Meccanico ed Assistente Tecnico Perito Elettrotecnico",
+  "profilo": "Tecnico",
+  "studio": "Diploma",
+  "studio_dedotto": false,
+  "posti": 3,
+  "pub": "2026-11-09",
+  "scad": "2026-11-24",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=241294b88de54d3db04b8c775d699823",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "6105d2c7-6d2e-49a2-8e86-971b17c2a506"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Irccs Centro Neurolesi Bonino Pulejo",
+  "titolo": "Avviso di selezione pubblica, per titoli e colloquio, per la copertura, a tempo determinato, di dirigenti medici, per sostituzione di personale assente per malattia e/o gravidanza, infortunio o aspettativa, o assenze prolungate a qualsiasi titolo, per varie discipline",
+  "profilo": "Sanitario",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 4,
+  "pub": "2026-11-09",
+  "scad": "2026-11-24",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=bf06d10c488342c6a30aaf708a057a8a",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "7e311215-b24e-4dd9-8d19-4223b3c81179"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Comune di Misilmeri",
+  "titolo": "Comune di Misilmeri. AVVISO PUBBLICO PER L’ACQUISIZIONE DI MANIFESTAZIONI DI INTERESSE PER LA NOMINA DELL’ORGANISMO INDIPENDENTE DI VALUTAZIONE",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-09",
+  "scad": "2026-11-24",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=1acd6add04cf45ad8329c7bab00c6180",
+  "categoria": "Avviso OIV ",
+  "nota": "",
+  "media": [
+   "e499c727-a861-4831-a90e-39fb8f66cba8"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
   "prov": "Messina",
   "province": [
    "Messina"
@@ -237,6 +303,28 @@
    "deb52a84-b509-4ce8-a93e-208056a7721c"
   ],
   "studio_fonte": "bando PDF (OCR, nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "CONSERVATORIO DI MUSICA ARCANGELO CORELLI",
+  "titolo": "Bando di reclutamento a Tempo Determinato AFAM030 Pianoforte jazz",
+  "profilo": "Vari profili",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-05",
+  "scad": "2026-11-21",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=2f9313c9c95342dc960033931cdb8460",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "a62b3355-8b38-4cc4-b96f-5366400a32bf"
+  ],
+  "studio_fonte": "bando PDF (OCR)",
   "analisi": 2
  },
  {
