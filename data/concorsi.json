@@ -1,5 +1,27 @@
 [
  {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Universita' degli Studi di Palermo",
+  "titolo": "Procedura selettiva pubblica per il conferimento di un incarico post-doc dal titolo: Simulazioni di dinamica molecolare per il raffinamento termico di nanocristalli colloidali",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-10",
+  "scad": "2026-11-25",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=760abb6c85b64cd29be5891209619be4",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "6a0b80ee-1422-4406-a832-4aaea37d9cc5"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
   "prov": "Sicilia",
   "province": [
    "Sicilia"
@@ -63,6 +85,94 @@
    "e499c727-a861-4831-a90e-39fb8f66cba8"
   ],
   "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Citta' Metropolitana di Messina",
+  "titolo": "AVVISO DI MOBILITA’ VOLONTARIA AI SENSI DELL’ART. 30 DEL D.LGS. N. 165/2001, PER LA COPERTURA DI N. 1 POSTO A TEMPO INDETERMINATO E PIENO DI DIRIGENTE TECNICO (CCNL FUNZIONI LOCALI – AREA DIRIGENZA)",
+  "profilo": "Tecnico",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-09",
+  "scad": "2026-12-09",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=19a6258ab5c54114919b33992e4c8b60",
+  "categoria": "Avvisi di mobilità",
+  "nota": "",
+  "media": [
+   "b7927d72-def5-4644-adfb-9421a074e2b5"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "CONSERVATORIO DI MUSICA ARCANGELO CORELLI",
+  "titolo": "BANDO PROGRESSIONE VERTICALE PROFILO PROFESSIONALE DI FUNZIONARIO AMMINISTRATIVO GESTIONALE A TEMPO PIENO E INDETERMINATO PRESSO IL CONSERVATORIO DI MUSICA \"A.CORELLI\" DI MESSINA",
+  "profilo": "Amministrativo",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-09",
+  "scad": "2026-11-24",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=368a2485168243cd9b9baab01ed7fbf1",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "07cf68d4-986f-4556-9561-6484cda71586"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Comune di Enna - Risorse finanziarie e programmazione economica",
+  "titolo": "Bando di concorso pubblico per titoli ed esami, per il reclutamento e l’assunzione di n. 2 unità di personale a tempo indeterminato e pieno da inquadrare nell’area degli Istruttori, aventi il profilo professionale di “Istruttore di Polizia Locale\"",
+  "profilo": "Polizia locale",
+  "studio": "Diploma",
+  "studio_dedotto": false,
+  "posti": 2,
+  "pub": "2026-11-09",
+  "scad": "2026-12-09",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=7b5db4a1c4c340bb84bccb4cb48dec26",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "88c5563d-5b49-483c-a36f-35b7bb4a8fb2"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Tirreno Ecosviluppo 2000 Societa' Consortile a R.L.",
+  "titolo": "AVVISO DI SELEZIONE PUBBLICA PER TITOLI E COLLOQUIO PER L’ASSUNZIONE A TEMPO INDETERMINATO PART TIME (36 ORE SETTIMANALI) DI N. 1 RESPONSABILE TECNICO DEL CONSORZIO TIRRENO ECOSVILUPPO 2000.",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-09",
+  "scad": "2026-11-24",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=7dc87062b6294cffb274c32bd407a299",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "28e0e99d-3603-44c8-87ef-9839cc45ef2f"
+  ],
+  "studio_fonte": "bando PDF",
   "analisi": 2
  },
  {
