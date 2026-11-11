@@ -22,6 +22,138 @@
   "analisi": 2
  },
  {
+  "prov": "Trapani",
+  "province": [
+   "Trapani"
+  ],
+  "ente": "Comune di Castellammare del Golfo",
+  "titolo": "Avviso di selezione, in applicazione dell’art. 13, commi 6, 7 e 8 del CCNL 16.11.2022, per la progressione verticale in deroga tra le Aree, riservata al personale del Comune di Castellammare del Golfo a tempo indeterminato, per la copertura di n. 1 posto nell’Area dei Funzionari e dell'Elevata Qualificazione con profilo professionale Istruttore Direttivo di Vigilanza.",
+  "profilo": "Amministrativo",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-10",
+  "scad": "2026-11-25",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=1077d096a9674df4b6008042fd31616b",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "84db1543-fecd-415d-8a72-903906e554ea"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Comune di Partinico",
+  "titolo": "individuazione di n. 2 figure professionali con incarico professionale esterno: n. 1 Assistente Sociale e n. 1 Coordinatore, a supporto dell’Ente gestore del Progetto rete SAI n. 1049 PR_3 categoria ordinari, finanziato con D.M.30917 del 22/06/2026 con risorse a valere sul FNPSA",
+  "profilo": "Educativo/Sociale",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 2,
+  "pub": "2026-11-10",
+  "scad": "2026-11-20",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=e4b872585afd4e2d81b74796510055d6",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "40a73575-33ed-4ee6-bfa8-caa269382be3"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Comune di Partinico",
+  "titolo": "selezione di 2 figure professionali con incarico professionale esterno: n. 1 Assistente Sociale e n. 1 Coordinatore, a supporto dell’Ente gestore del Progetto rete SAI n. 1031 PR_3 categoria MSNA, finanziato con D.M.30917 del 22/06/2026 con risorse a valere sul FNPSA",
+  "profilo": "Educativo/Sociale",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 2,
+  "pub": "2026-11-10",
+  "scad": "2026-11-20",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=acc228474a35464e8afd9c2222a6a5be",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "e155a534-8441-4686-9712-f70d92b10bff"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Comune di Partinico",
+  "titolo": "selezione, mediante procedura comparativa, di n. 1 Revisore Contabile Indipendente per la verifica e certificazione delle spese sostenute nell’ambito del Progetto SAI n. 1031-PR_3 categoria MSNA finanziato con D.M.30917 del 22/06/2026 con risorse a valere sul FNPSA-",
+  "profilo": "Contabile",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-10",
+  "scad": "2026-11-20",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=2f19dfb0e54f4b55ae567f65821d7009",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "9dd2d47f-770c-4945-b47f-6298605dda3a"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Comune di Partinico",
+  "titolo": "selezione, mediante procedura comparativa, di n. 1 Revisore Contabile Indipendente per la verifica e certificazione delle spese sostenute nell’ambito del Progetto SAI n. 1049-PR_3 categoria Ordinari finanziato con D.M.30917 del 22/06/2026 con risorse a valere sul FNPSA",
+  "profilo": "Contabile",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-10",
+  "scad": "2026-11-20",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3489213e53e04b7db0f1da9f4995f692",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "31981ad5-f115-43a6-9e98-aef0165affa9"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Caltanissetta",
+  "province": [
+   "Caltanissetta"
+  ],
+  "ente": "Comune di San Cataldo",
+  "titolo": "AVVISO PER IL RECLUTAMENTO MEDIANTE STABILIZZAZIONE A TEMPO PARZIALE (30 ORE) E INDETERMINATO",
+  "profilo": "Vari profili",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-10",
+  "scad": "2026-11-20",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3ec9f7e6caed4563a8e1299621fbc96e",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "3e15146a-a5f5-4b1f-9039-9bb9ddf35148"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
   "prov": "Sicilia",
   "province": [
    "Sicilia"
