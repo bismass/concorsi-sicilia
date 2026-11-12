@@ -1,5 +1,49 @@
 [
  {
+  "prov": "Trapani",
+  "province": [
+   "Trapani"
+  ],
+  "ente": "Azienda Sanitaria Provinciale di Trapani",
+  "titolo": "RIAPERTURA TERMINI Avviso pubblico straordinario, per soli titoli, per la formulazione di una graduatoria per assunzioni a tempo determinato nel profilo professionale di Dirigente Medico – Ortopedia e traumatologia – Ai sensi degli art. 36 D.Lgs. 165/2001 ed art. 2-ter D.L. 18/2020, convertito in L. 27/2020, e ss.mm.ii.",
+  "profilo": "Sanitario",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-11",
+  "scad": "2026-12-31",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=f44206b1ae5948f3972fe1caf74531d2",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "47798e9a-1bfc-46e8-8ecf-ece4351b2434"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Comune di Tortorici",
+  "titolo": "AVVISO ESPLORATIVO PUBBLICO DI SELEZIONE COMPARATIVA EX ART. 110, COMMA 1, DEL T.U.E.L., PER IL CONFERIMENTO DI UN INCARICO DI RESPONSABILE DEL IV SETTORE TECNICO – PROGETTAZIONE E LAVORI PUBBLICI (FUNZIONARIO DI ELEVATA QUALIFICAZIONE - EX CAT. D)",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-11",
+  "scad": "2026-11-21",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=6f3b67193c414aa8a8e7a91287904438",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "5819755b-9188-45ea-9dc6-cec6b31d4ee3"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
   "prov": "Palermo",
   "province": [
    "Palermo"
@@ -319,7 +363,7 @@
   "studio_dedotto": false,
   "posti": 1,
   "pub": "2026-11-06",
-  "scad": "2026-11-23",
+  "scad": "2026-11-12",
   "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=67951b129d2241f78b9d585cbdc758b2",
   "categoria": "Avviso OIV ",
   "nota": "",
