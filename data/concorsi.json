@@ -22,6 +22,72 @@
   "analisi": 2
  },
  {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Comune di Capo D'Orlando",
+  "titolo": "SELEZIONE DI UN REVISORE CONTABILE INDIPENDENTE PER IL PROGETTO \"SAI - SISTEMA DI ACCOGLIENZA E INTEGRAZIONE\" TRIENNIO 2026/2028",
+  "profilo": "Contabile",
+  "studio": "Non indicato",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-13",
+  "scad": "2026-11-30",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=e4a0f43a502742c195731e35cc7d6c69",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "bcda5376-ef1a-4441-aee2-53cd8d95153d"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Comune di Castellana Sicula",
+  "titolo": "BANDO DI INTERPELLO \"ELENCO IDONEI\" PER ASSUNZIONE N. 1 ASSISTENTE SOCIALE A TEMPO INDETERMINATO E PARZIALE",
+  "profilo": "Educativo/Sociale",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-13",
+  "scad": "2026-11-28",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=015c973cbdd14ef990184a0b5f08cfb0",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "e468223f-9ccf-4605-b6bc-0aef980bc653"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "Comune di Bagheria",
+  "titolo": "Avviso pubblico per l’invio di manifestazioni di interesse per la individuazione della graduatoria da utilizzare per l'assunzione di n. 2 Assistenti Sociali a tempo indeterminato e pieno tramite l'utilizzo di graduatorie vigenti di altri enti che applicano il CCNL Comparto Funzioni Locali del 28/10/2026.",
+  "profilo": "Educativo/Sociale",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 2,
+  "pub": "2026-11-13",
+  "scad": "2026-11-28",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3578b7b5b78f41949a7d2c5bb779e1d4",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "82cbcfa6-7512-4bf4-92d3-e328690fb670"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
   "prov": "Trapani",
   "province": [
    "Trapani"
