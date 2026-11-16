@@ -1,5 +1,27 @@
 [
  {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Azienda Sanitaria Provinciale Ragusa",
+  "titolo": "zione procedura selettiva, per titoli e colloquio, per la formulazione di una graduatoria per il conferimento di incarichi a tempo determinato per il profilo professionale di Dirigente Veterinario – Sanità Animale (ex Area A)",
+  "profilo": "Amministrativo",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-16",
+  "scad": "2026-11-26",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=b6e60faefddb40b8a46f242e17a1023e",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "3c5b0fb3-6b6c-48c2-aa77-3802bac6f6a0"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
   "prov": "Messina",
   "province": [
    "Messina"
