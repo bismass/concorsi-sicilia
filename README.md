@@ -9,6 +9,11 @@ Raccoglie i concorsi pubblici della Sicilia dal portale inPA e li mostra in una 
     python scrape.py --report                # riepilogo dei dati
     python -m http.server                    # poi apri http://localhost:8000
 
+## Notizie sulla PA
+    python notizie.py --prova   # verifica i feed (OK/KO per ciascuna fonte)
+    python notizie.py           # aggiorna data/notizie.json
+Le fonti si modificano nella lista `FONTI` di `notizie.py`. Si salvano solo titolo, link, data e un breve estratto.
+
 ## Online (GitHub Pages) con aggiornamento automatico
 1. Crea un account su github.com e un repository **pubblico** (es. `concorsi-sicilia`).
 2. In `scrape.py` sostituisci lo `User-Agent` con l'indirizzo del tuo repository.

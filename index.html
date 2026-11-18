@@ -87,6 +87,8 @@ h1{font-weight:700;font-size:1.75rem}
 .btn:hover:not(:disabled){border-color:var(--ac);color:var(--ac)}
 .btn:disabled{opacity:.5;cursor:default}
 .b.nuovo{color:var(--ac);font-weight:700}
+.tl{color:var(--tx);text-decoration:none;font:inherit}.tl:hover{color:var(--ac);text-decoration:underline}
+.ex{margin:8px 0 6px;font:14px/1.5 system-ui,sans-serif;color:var(--mu)}
 </style>
 </head>
 <body>
@@ -102,7 +104,7 @@ h1{font-weight:700;font-size:1.75rem}
 <script>
 let DATA=[],AGG=""; // viene caricato da data/concorsi.json (prodotto da scrape.py)
 const PROV=["Agrigento","Caltanissetta","Catania","Enna","Messina","Palermo","Ragusa","Siracusa","Trapani"];
-const VIEWS={attivi:"Attivi",scaduti:"Scaduti di recente",backlog:"Backlog",stat:"Statistiche"};
+const VIEWS={attivi:"Attivi",scaduti:"Scaduti di recente",backlog:"Backlog",stat:"Statistiche",news:"Notizie PA"};
 const MESI=["Gen","Feb","Mar","Apr","Mag","Giu","Lug","Ago","Set","Ott","Nov","Dic"];
 const oggi=new Date();oggi.setHours(0,0,0,0);
 const anno_fa=new Date(oggi);anno_fa.setFullYear(oggi.getFullYear()-1);
@@ -134,7 +136,7 @@ $("sb").innerHTML=`<div class="top">`+nav("tgl",'id="tg"',`<span class="ic">☰<
 const on=p===st.prov,nome=p==="Sicilia"?"Tutta la Sicilia":p;
 return nav("prov"+(on?" sel":""),`data-p="${p}"`,`<span class="ic sg">${SIGLE[p]}</span>`,nome,att(p))
 +(on?`<div class="sub">`+["attivi","scaduti","backlog"].map(k=>nav(st.view===k?"on":"",`data-v="${k}"`,`<span class="ic">${VICON[k]}</span>`,VIEWS[k],n(k))).join("")+`</div>`:"")}).join("")+
-`<div class="lbl">Analisi</div>`+nav(st.view==="stat"?"on":"",'data-v="stat"',`<span class="ic">📊</span>`,"Statistiche")+`<div class="lbl">Aspetto</div>`+nav("",'id="th"',`<span class="ic">${tema()==="dark"?"☀️":"🌙"}</span>`,tema()==="dark"?"Tema chiaro":"Tema scuro");
+`<div class="lbl">Analisi</div>`+nav(st.view==="stat"?"on":"",'data-v="stat"',`<span class="ic">📊</span>`,"Statistiche")+nav(st.view==="news"?"on":"",'data-v="news"',`<span class="ic">📰</span>`,"Notizie PA")+`<div class="lbl">Aspetto</div>`+nav("",'id="th"',`<span class="ic">${tema()==="dark"?"☀️":"🌙"}</span>`,tema()==="dark"?"Tema chiaro":"Tema scuro");
 $("tg").onclick=()=>{if(matchMedia("(max-width:760px)").matches){$("sb").classList.remove("open");return}min=!min;try{localStorage.setItem("menu",min?"min":"")}catch(e){}menu()};
 $("th").onclick=()=>{setTema(tema()==="dark"?"light":"dark");menu()};
 $("sb").querySelectorAll("[data-p]").forEach(b=>b.onclick=()=>{st.prov=b.dataset.p;st.q=st.ente=st.prof=st.studio="";draw()});
@@ -237,10 +239,23 @@ $("d").onchange=e=>{st.demo=e.target.checked;stat()};
 $("y").onchange=e=>{st.anno=+e.target.value;stat()};
 }
 
+let NEWS=null;
+function news(){
+if(NEWS===null){$("v").innerHTML='<div class="empty">Caricamento notizie…</div>';
+ fetch("data/notizie.json").then(r=>r.ok?r.json():[]).catch(()=>[]).then(d=>{NEWS=d;if(st.view==="news")news()});return}
+const q=(st.nq||"").toLowerCase(),fonti=[...new Set(NEWS.map(n=>n.fonte))].sort();
+const f=NEWS.filter(n=>(!st.nf||n.fonte===st.nf)&&(n.titolo+" "+(n.estratto||"")+" "+(n.categorie||[]).join(" ")).toLowerCase().includes(q));
+const MAXN=80;
+$("v").innerHTML=`<div class="tools"><input id="nq" type="search" placeholder="Cerca nelle notizie…" value="${esc(st.nq||"")}"><select id="nf">${opt(fonti,st.nf||"","Tutte le fonti")}</select></div><div id="l">`
++(f.length?f.slice(0,MAXN).map(n=>`<div class="c"><h3><a class="tl" href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.titolo)}</a></h3><div class="m"><span class="chip"><i class="e">📰</i>${esc(n.fonte)}</span><span class="chip"><i class="e">📅</i>${fmt(n.data)}</span>${(n.categorie||[]).map(c=>`<span class="chip">#${esc(c)}</span>`).join("")}</div>${n.estratto?`<p class="ex">${esc(n.estratto)}</p>`:""}<a href="${esc(n.link)}" target="_blank" rel="noopener">Leggi sul sito originale →</a></div>`).join(""):`<div class="empty">${NEWS.length?"Nessuna notizia corrisponde alla ricerca.":"Ancora nessuna notizia: la raccolta parte con il prossimo aggiornamento automatico."}</div>`)
++`</div><p class="note">${f.length>MAXN?`Mostrate le ${MAXN} più recenti su ${f.length}. `:""}Titoli ed estratti appartengono alle testate indicate: il testo completo è sul loro sito.</p>`;
+$("nq").oninput=e=>{st.nq=e.target.value;const p=e.target.selectionStart;news();$("nq").focus();$("nq").setSelectionRange(p,p)};
+$("nf").onchange=e=>{st.nf=e.target.value;news()};
+}
 function draw(){menu();
-$("t").textContent=st.view==="stat"?"Statistiche – "+st.prov:st.prov+" · "+VIEWS[st.view];
-$("s").textContent={attivi:"Bandi con domanda ancora aperta",scaduti:"Chiusi negli ultimi 12 mesi",backlog:"Archivio dei bandi più vecchi di 12 mesi",stat:"Quanti concorsi vengono pubblicati nel tempo"}[st.view];
-st.view==="stat"?stat():lista();}
+$("t").textContent=st.view==="news"?"Notizie dalla PA":st.view==="stat"?"Statistiche – "+st.prov:st.prov+" · "+VIEWS[st.view];
+$("s").textContent={attivi:"Bandi con domanda ancora aperta",scaduti:"Chiusi negli ultimi 12 mesi",backlog:"Archivio dei bandi più vecchi di 12 mesi",stat:"Quanti concorsi vengono pubblicati nel tempo",news:"Aggiornamenti dalle principali testate sulla pubblica amministrazione"}[st.view];
+st.view==="news"?news():st.view==="stat"?stat():lista();}
 $("mb").onclick=()=>$("sb").classList.toggle("open");
 $("v").innerHTML='<div class="empty">Caricamento…</div>';
 fetch("data/concorsi.json").then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);const lm=r.headers.get("last-modified");if(lm)AGG=new Date(lm).toLocaleString("it-IT",{dateStyle:"long",timeStyle:"short"});return r.json()})
