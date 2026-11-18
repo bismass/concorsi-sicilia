@@ -40,12 +40,17 @@ jobs:
           elif [ -n "${{ github.event.inputs.pagine }}" ]; then echo "n=${{ github.event.inputs.pagine }}" >> "$GITHUB_OUTPUT"
           else echo "n=150" >> "$GITHUB_OUTPUT"; fi
       - name: Raccogli i concorsi
+        env:
+          PYTHONUNBUFFERED: "1"   # mostra l'avanzamento in tempo reale nel registro
         run: python scrape.py --pagine ${{ steps.p.outputs.n }} --ocr
+      - name: Raccogli le notizie
+        continue-on-error: true
+        run: python notizie.py
       - name: Salva i dati nel repository
         run: |
           git config user.name "concorsi-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/concorsi.json
+          git add data/concorsi.json data/notizie.json
           git diff --staged --quiet || (git commit -m "Aggiornamento concorsi" && git push)
       - name: Prepara il sito
         run: |
