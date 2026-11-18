@@ -1,5 +1,93 @@
 [
  {
+  "prov": "Palermo",
+  "province": [
+   "Palermo"
+  ],
+  "ente": "A.R.N.A.S. CIVICO - DI CRISTINA E BENEFRATELLI",
+  "titolo": "CONCORSO PUBBLICO, PER TITOLI ED ESAMI, PER LA COPERTURA A TEMPO INDETERMINATO DI N. 2 POSTI PROFILO DI DIRIGENTE MEDICO DI ANATOMIA PATOLOGICA PER LA U.O.C. ANATOMIA PATOLOGICA DEL P.O. CIVICO (del. ind. n. 1920 del 06.11.2026)",
+  "profilo": "Sanitario",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 2,
+  "pub": "2026-11-18",
+  "scad": "2026-12-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=78364da375c14f56bfec15215ceb1fb0",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "9779d959-41d8-4d47-bd22-b3ab0fdb223e"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Trapani",
+  "province": [
+   "Trapani"
+  ],
+  "ente": "Conservatorio di Musica Antonio Scontrino di Trapani",
+  "titolo": "BANDO PER IL RECLUTAMENTO A TEMPO INDETERMINATO DI DOCENTI DI PRIMA FASCIA NEI CONSERVATORI DI MUSICA DPR 83/2024 per a.a. 2026/2027 AFAM028 Strumenti a corde per i nuovi linguaggi musicali - Basso elettrico pop rock;",
+  "profilo": "Vari profili",
+  "studio": "Diploma",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-18",
+  "scad": "2026-12-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=0b4bf19a6dcc4f65a9f53841d2d0129a",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "a37d46df-c739-4d94-81d1-3acae15b8947"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Catania",
+  "province": [
+   "Catania"
+  ],
+  "ente": "Comune di Caltagirone",
+  "titolo": "CONCORSO PUBBLICO, PER SOLI ESAMI, PER LA COPERTURA DI N. 1 POSTO A TEMPO PIENO E INDETERMINATO CON PROFILO PROFESSIONALE “FUNZIONARIO TECNICO”, AREA DEI FUNZIONARI E DELL’ ELEVATA QUALIFICAZIONE (EX CAT. D), DEL VIGENTE CCNL COMPARTO FUNZIONI LOCALI.",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-18",
+  "scad": "2026-12-03",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=4fcc93919fe74944b54e8e39c30b996f",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "015c5eea-f3b4-443d-8cf4-d4c13156a485"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Ragusa",
+  "province": [
+   "Ragusa"
+  ],
+  "ente": "Libero Consorzio Comunale di Ragusa",
+  "titolo": "Procedura finalizzata ad individuare il personale non dirigenziale in servizio presso il Libero Consorzio Comunale di Ragusa in possesso dei requisiti per il reclutamento speciale transitorio (c.d. stabilizzazione) di cui all’art. 50, c. 17-bis, del D. L. 24.02.2023 n. 13, convertito dalla L. 21.04.2023 n. 41, per la copertura a tempo pieno ed indeterminato di n. 1 posto di Funzionario Amministrativo da inquadrare nell’Area dei Funzionari e dell’E.Q.",
+  "profilo": "Amministrativo",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-17",
+  "scad": "2026-12-03",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=c14ae79f407049cd8ee1f1d4376c319d",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "87883741-c1f8-4fd6-b9f0-faff96272ab8"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
   "prov": "Sicilia",
   "province": [
    "Sicilia"
