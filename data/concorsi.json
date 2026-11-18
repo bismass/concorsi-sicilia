@@ -66,6 +66,28 @@
   "analisi": 2
  },
  {
+  "prov": "Siracusa",
+  "province": [
+   "Siracusa"
+  ],
+  "ente": "Comune di Floridia",
+  "titolo": "N. 5 posti Istruttori di Vigilanza - Area degli Istruttori ex Cat. C, di cui n. 1 riservato",
+  "profilo": "Vari profili",
+  "studio": "Diploma",
+  "studio_dedotto": false,
+  "posti": 5,
+  "pub": "2026-11-18",
+  "scad": "2026-12-15",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=81475ae5318f4372b83ce9e8cfd98d42",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "6148ba3b-a9a4-4821-8280-52066578ac5f"
+  ],
+  "studio_fonte": "bando PDF (OCR)",
+  "analisi": 2
+ },
+ {
   "prov": "Ragusa",
   "province": [
    "Ragusa"
@@ -613,6 +635,208 @@
    "28e0e99d-3603-44c8-87ef-9839cc45ef2f"
   ],
   "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Agenzia Regionale per la Protezione dell'Ambiente della Sicilia",
+  "titolo": "ARLPA_PA10/2026 Concorso pubblico, per titoli e esami a tempo pieno e determinato n. 4 Collaboratore Tecnico Professionale Valutazione della tipizzazione e significatività ed ampliamento delle conoscenze dei corpi idrici superficiali (fiumi/laghi/invasi/fiumi “salati”) e definizione rete di monitoraggio dello stato chimico corpi idrici sotterranei – Esperto in analisi, modellazione e gestione dati ambientali e geoambientali in ambiente GIS",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 4,
+  "pub": "2026-11-07",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=526ad1a62efd4f5ea3a44ad32981e157",
+  "categoria": "Concorso",
+  "nota": ""
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Agenzia Regionale per la Protezione dell'Ambiente della Sicilia",
+  "titolo": "ARLPA_PA11/2026 Concorso pubblico, per titoli e esami a tempo pieno e determinato n. 3 Collaboratore Tecnico Professionale per l'informatizzazione del Sistema di Gestione dei dati analitici - Esperto amministratore di database",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 3,
+  "pub": "2026-11-07",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=4429912aa5b54775b160185e8e3bac9d",
+  "categoria": "Concorso",
+  "nota": ""
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Agenzia Regionale per la Protezione dell'Ambiente della Sicilia",
+  "titolo": "ARLPA_PA12/2026 Concorso pubblico, per titoli e esami a tempo pieno e determinato n. 1 Collaboratore Tecnico Professionale per le attività di laboratorio biologico - Analisi microbiologiche ed ecotossicologiche",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-07",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=4703112ea9184953a96e17d431de2af3",
+  "categoria": "Concorso",
+  "nota": ""
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Agenzia Regionale per la Protezione dell'Ambiente della Sicilia",
+  "titolo": "ARLPA_PA13/2026 Concorso pubblico, per titoli e esami a tempo pieno e determinato n. 13 Assistenti Tecnici per il Monitoraggio chimico dei fiumi, laghi, invasi e acquee sotterranee",
+  "profilo": "Tecnico",
+  "studio": "Diploma",
+  "studio_dedotto": true,
+  "posti": 13,
+  "pub": "2026-11-07",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=843e397ae9964f1594aeececdd617fd7",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [],
+  "studio_fonte": "nessun PDF allegato",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Agenzia Regionale per la Protezione dell'Ambiente della Sicilia",
+  "titolo": "ARLPA_PA14/2026 Concorso pubblico, per titoli e esami a tempo pieno e determinato n. 2 Operatori Tecnici a supporto delle analisi di laboratorio",
+  "profilo": "Tecnico",
+  "studio": "Licenza media",
+  "studio_dedotto": false,
+  "posti": 2,
+  "pub": "2026-11-07",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=617fe0c46a574edfb711bb1aab6ba3cd",
+  "categoria": "Concorso",
+  "nota": ""
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Agenzia Regionale per la Protezione dell'Ambiente della Sicilia",
+  "titolo": "ARLPA_PA15/2026 Concorso pubblico, per titoli e esami a tempo pieno e determinato n. 11 CTP Definizione rete di monitoraggio dello stato chimico corpi idrici sotterranei dell'Accordo di collaborazione tra la Regione Siciliana, Dipartimento dell'Autorità di bacino del distretto idrografico della Sicilia e ARPA Sicilia per l'attuazione della linea Interventi per il miglioramento della qualità dei corpi idrici",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 11,
+  "pub": "2026-11-07",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=64eaad9098d546c5a2afdeb26380a9d3",
+  "categoria": "Concorso",
+  "nota": ""
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Agenzia Regionale per la Protezione dell'Ambiente della Sicilia",
+  "titolo": "ARLPA_PA16/2026 Concorso pubblico, per titoli e esami a tempo pieno e determinato, per 1 Collaboratore Tecnico Professionale - rete di monitoraggio corpi idrici sotterranei - nell'ambito dell'Accordo di collaborazione tra la Regione Siciliana, Dipartimento dell'Autorità di bacino del distretto idrografico della Sicilia e ARPA Sicilia per l'attuazione della linea Interventi per il miglioramento della qualità dei corpi idrici",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-07",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=5888f225341b42448a02e18d2fdfd9cb",
+  "categoria": "Concorso",
+  "nota": ""
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Agenzia Regionale per la Protezione dell'Ambiente della Sicilia",
+  "titolo": "ARLPA_PA17/2026 Concorso pubblico, per titoli e esami a tempo pieno e determinato, per 1 Collaboratore Tecnico Professionale - Area dei Professionisti della salute e dei Funzionari - nell'ambito dell'Accordo di collaborazione tra la Regione Siciliana, Dipartimento dell'Autorità di bacino del distretto idrografico della Sicilia e ARPA Sicilia per l'attuazione della linea Interventi per il miglioramento della qualità dei corpi idrici",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-07",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=46bd2cf1d4bf4e1aadc2b05d7fc0e5ef",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [],
+  "studio_fonte": "nessun PDF allegato",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Agenzia Regionale per la Protezione dell'Ambiente della Sicilia",
+  "titolo": "Concorso pubblico, per titoli e prova scritta, a tempo pieno e determinato, per la copertura di n. 23 Assistente Tecnico - Area degli Assistenti - per lo svolgimento delle attività di cui all'Accordo di collaborazione tra la Regione Siciliana, Dipartimento dell'Autorità di bacino del distretto idrografico della Sicilia e ARPA Sicilia per l'attuazione della linea di finanziamento del POA FSC - linea di azione 2.3.1 \" Interventi per il miglioramento della qualità dei corpi idrici\"",
+  "profilo": "Tecnico",
+  "studio": "Diploma",
+  "studio_dedotto": true,
+  "posti": 23,
+  "pub": "2026-11-07",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=d11f976b60574bb3a542676145c3a1ec",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [],
+  "studio_fonte": "nessun PDF allegato",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Agenzia Regionale per la Protezione dell'Ambiente della Sicilia",
+  "titolo": "Concorso pubblico, per titoli e prova scritta, a tempo pieno e determinato, per la copertura di n. 5 CTP (Area Professionisti salute e funzionari) per lo svolgimento delle attività di cui all'Accordo di collaborazione tra la Regione Siciliana, Dipartimento dell'Autorità di bacino del distretto idrografico della Sicilia e ARPA Sicilia per l'attuazione della linea di finanziamento del POA FSC - linea di azione 2.3.1 \" Interventi per il miglioramento della qualità dei corpi idrici\"",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 5,
+  "pub": "2026-11-07",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=24a850efa1844b5da35143754f99bef3",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [],
+  "studio_fonte": "nessun PDF allegato",
+  "analisi": 2
+ },
+ {
+  "prov": "Sicilia",
+  "province": [
+   "Sicilia"
+  ],
+  "ente": "Agenzia Regionale per la Protezione dell'Ambiente della Sicilia",
+  "titolo": "Concorso pubblico, per titoli e prova scritta, a tempo pieno e determinato, per la copertura di n. 6 CTP - Area dei Professionisti della salute e dei Funzionari - per lo svolgimento delle attività di cui all'Accordo di collaborazione tra la Regione Siciliana, Dipartimento dell'Autorità di bacino del distretto idrografico della Sicilia e ARPA Sicilia per l'attuazione della linea di finanziamento del POA FSC - linea di azione 2.3.1 \" Interventi per il miglioramento della qualità dei corpi idrici\"",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 6,
+  "pub": "2026-11-07",
+  "scad": "2026-11-18",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=a305dd4928954cc4b6e5da5ac535b393",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [],
+  "studio_fonte": "nessun PDF allegato",
   "analisi": 2
  },
  {
