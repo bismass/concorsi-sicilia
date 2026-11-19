@@ -1,5 +1,27 @@
 [
  {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Universita' degli Studi di Messina",
+  "titolo": "Selezione pubblica, per titoli ed esami, per il reclutamento di n. 1 unità di Personale Tecnico Amministrativo a tempo determinato di supporto alle esigenze del Progetto “OBELISK” presso il Dipartimento di Patologia Umana dell’adulto e dell’età evolutiva, Area dei Funzionari, settore amm.vo gestionale, con scadenza al 31.03.2028, salvo eventuale proroga o rinnovo del Progetto con conseguente estensione della durata contrattuale per un massimo di 24 mesi tempo parziale (18 ore settimanali).",
+  "profilo": "Tecnico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-19",
+  "scad": "2026-12-04",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=600622d7789b4a87b0d9ff2d5c3880f7",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "e9aa130f-9cff-455b-93f0-70c2858711f6"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
   "prov": "Palermo",
   "province": [
    "Palermo"
@@ -85,6 +107,72 @@
    "6148ba3b-a9a4-4821-8280-52066578ac5f"
   ],
   "studio_fonte": "bando PDF (OCR)",
+  "analisi": 2
+ },
+ {
+  "prov": "Trapani",
+  "province": [
+   "Trapani"
+  ],
+  "ente": "Azienda Sanitaria Provinciale di Trapani",
+  "titolo": "RIAPERTURA TERMINI Avviso pubblico straordinario, per soli titoli, per la formulazione di una graduatoria per assunzioni a tempo determinato nel profilo professionale di Dirigente Medico - NEUROPSICHIATRIA - Ai sensi degli art.36 D.Lgs. 165/2001 ed art.2-ter D.L.18/2020, convertito in L.27/2020, e ss.mm.ii.",
+  "profilo": "Sanitario",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-18",
+  "scad": "2026-12-31",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=cacd1c8988f2417ea18e67780c010836",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "c5a6d0b3-85b1-4745-b98b-d0437160fed5"
+  ],
+  "studio_fonte": "bando PDF (OCR)",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Comune di Saponara",
+  "titolo": "AVVISO DI MOBILITÀ ESTERNA VOLONTARIA DI N. 1 POSTO DI ISTRUTTORE DI VIGILANZA - AGENTE DI POLIZIA LOCALE",
+  "profilo": "Polizia locale",
+  "studio": "Diploma",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-18",
+  "scad": "2026-12-03",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=55c256a9c47a46c79697b1cb7dec021a",
+  "categoria": "Avvisi di mobilità",
+  "nota": "",
+  "media": [
+   "e7140c18-3396-49e0-939c-bc858fde2204"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Messina",
+  "province": [
+   "Messina"
+  ],
+  "ente": "Comune di Messina",
+  "titolo": "AVVISO DI MOBILITÀ ESTERNA VOLONTARIA AI SENSI DELL’ART. 30 DEL D. LGS. N. 165/2001 RISERVATA ESCLUSIVAMENTE A PERSONALE ASSUNTO AI SENSI DELL'ART. 1 L. 68/1999, PER LA COPERTURA DI N. 8 POSTI DI ISTRUTTORE AMMINISTRATIVO/FINANZIARIO A TEMPO PIENO E INDETERMINATO- AREA DEGLI ISTRUTTORI.",
+  "profilo": "Contabile",
+  "studio": "Diploma",
+  "studio_dedotto": true,
+  "posti": 8,
+  "pub": "2026-11-18",
+  "scad": "2026-12-03",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=3bdef41b462340c2be714049a96d8515",
+  "categoria": "Avvisi di mobilità",
+  "nota": "",
+  "media": [
+   "34794471-993a-4345-85f7-12352945c10b"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
   "analisi": 2
  },
  {
@@ -2482,7 +2570,7 @@
   "studio_dedotto": true,
   "posti": 1,
   "pub": "2026-10-21",
-  "scad": "2026-11-20",
+  "scad": "2026-11-18",
   "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=c38b2403d7774d03ae4c41f11748c5f5",
   "categoria": "Avvisi di mobilità",
   "nota": "",

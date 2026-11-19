@@ -1,5 +1,137 @@
 [
  {
+  "titolo": "Il digitale italiano cresce a 87,8 miliardi: le imprese cercano più controllo sulle tecnologie",
+  "link": "https://lentepubblica.it/cittadini-e-imprese/mercato-digitale-italiano-2026-rapporto-tig/",
+  "data": "2026-11-19",
+  "fonte": "Lentepubblica",
+  "estratto": "lentepubblica.it Il rapporto Digital Italy Summit 2026 prevede una crescita del mercato del 3,4%, sostenuta soprattutto da software e servizi. Quasi due aziende intervistate su tre aumentano la…",
+  "categorie": [
+   "Cittadini e Imprese",
+   "PA e Digitale",
+   "Digital Italy Summit"
+  ]
+ },
+ {
+  "titolo": "APE Sociale: l'INPS esclude alcuni lavoratori dalla pensione anticipata",
+  "link": "https://lentepubblica.it/personale-e-previdenza/ape-sociale-2026-esclusi/",
+  "data": "2026-11-19",
+  "fonte": "Lentepubblica",
+  "estratto": "lentepubblica.it APE Sociale 2026, cambiano le regole applicate dall’INPS per il riconoscimento dell’anticipo pensionistico. A pochi giorni dall’ultima scadenza annuale per la presentazione delle…",
+  "categorie": [
+   "Cittadini e Imprese",
+   "Personale e previdenza",
+   "cittadini"
+  ]
+ },
+ {
+  "titolo": "Scuole a rischio chiusura: in 3mila Comuni italiani potrebbe sparire l'ultima primaria",
+  "link": "https://lentepubblica.it/scuola/scuole-rischio-chiusura-3000-comuni/",
+  "data": "2026-11-19",
+  "fonte": "Lentepubblica",
+  "estratto": "lentepubblica.it Il futuro di migliaia di piccoli Comuni italiani potrebbe essere deciso anche tra i banchi di scuola. La progressiva diminuzione delle nascite sta ridisegnando la distribuzione degli…",
+  "categorie": [
+   "Cittadini e Imprese",
+   "Scuola",
+   "criticità"
+  ]
+ },
+ {
+  "titolo": "Offerta tecnica con dati economici: l’esclusione automatica non è legalità, ma formalismo",
+  "link": "https://lentepubblica.it/cittadini-e-imprese/offerta-tecnica-con-dati-economici-esclusione-automatica/",
+  "data": "2026-11-19",
+  "fonte": "Lentepubblica",
+  "estratto": "lentepubblica.it Una sentenza del TAR Campania chiarisce i limiti delle esclusioni nelle gare pubbliche, richiamando le stazioni appaltanti a valutare la sostanza delle violazioni anziché fermarsi ai…",
+  "categorie": [
+   "Cittadini e Imprese",
+   "appalti",
+   "e-procurement"
+  ]
+ },
+ {
+  "titolo": "Abuso dei permessi legge 104: tabulati telefonici valgono come prova",
+  "link": "https://lentepubblica.it/personale-e-previdenza/abuso-permessi-legge-104-tabulati-telefonici/",
+  "data": "2026-11-19",
+  "fonte": "Lentepubblica",
+  "estratto": "lentepubblica.it Abuso dei permessi 104, il giudice non può considerare irrilevanti i tabulati telefonici senza spiegare perché. La Cassazione annulla la reintegra di una dipendente accusata di abuso…",
+  "categorie": [
+   "Cittadini e Imprese",
+   "Personale e previdenza",
+   "Spalla"
+  ]
+ },
+ {
+  "titolo": "La diffida amministrativa del D. Lgs. n. 103/2024 nei controlli comunali sulle attività economiche",
+  "link": "https://lentepubblica.it/contabilita-bilancio-tasse-tributi/diffida-amministrativa-d-lgs-n-103-2024/",
+  "data": "2026-11-19",
+  "fonte": "Lentepubblica",
+  "estratto": "lentepubblica.it Il contributo, a cura di Antonio Angelo Romeo, esamina la diffida amministrativa dell’art. 6 del Decreto Legislativo n. 103 del 12 luglio 2024 nei controlli che i Comuni svolgono…",
+  "categorie": [
+   "Contabilità e tasse",
+   "Spalla",
+   "commercio"
+  ]
+ },
+ {
+  "titolo": "Segretari comunali, attenzione al 1° gennaio 2027: le nuove regole del Viminale",
+  "link": "https://lentepubblica.it/personale-e-previdenza/segretari-comunali-1-gennaio-2027-nuove-regole-viminale/",
+  "data": "2026-11-19",
+  "fonte": "Lentepubblica",
+  "estratto": "lentepubblica.it Dal 1° gennaio 2027 un cambiamento importante per numerose amministrazioni locali che devono garantire la presenza dei segretari comunali. Non si tratta soltanto di ampliare le…",
+  "categorie": [
+   "Personale e previdenza",
+   "Spalla",
+   "comuni"
+  ]
+ },
+ {
+  "titolo": "Comuni, chi garantirà i servizi dopo il PNRR? Carlomagno propone un Patto",
+  "link": "https://lentepubblica.it/cittadini-e-imprese/funzioni-locali-carlomagno-propone-un-patto-per-i-comuni/",
+  "data": "2026-11-19",
+  "fonte": "Lentepubblica",
+  "estratto": "lentepubblica.it Competenze, organizzazione e risorse continuative per sostenere i territori. Al convegno CSE-FLP all’INAIL, i dati illustrati da Tortorella e il confronto con istituzioni e…",
+  "categorie": [
+   "Cittadini e Imprese",
+   "Come fare per PA",
+   "PA e Digitale"
+  ]
+ },
+ {
+  "titolo": "Fondo di solidarietà comunale 2027, c'è l'accordo: cosa cambia per i Comuni",
+  "link": "https://lentepubblica.it/contabilita-bilancio-tasse-tributi/fondo-solidarieta-comunale-2027-accordo-comuni/",
+  "data": "2026-11-19",
+  "fonte": "Lentepubblica",
+  "estratto": "lentepubblica.it Oltre 7,2 miliardi di euro da distribuire alle amministrazioni comunali italiane, con criteri che attribuiscono un peso crescente ai fabbisogni dei territori e alla loro effettiva…",
+  "categorie": [
+   "Apertura",
+   "Contabilità e tasse",
+   "bilanci"
+  ]
+ },
+ {
+  "titolo": "Igiene dell’attenzione e ipnosi digitale",
+  "link": "https://www.forumpa.it/pa-digitale/igiene-dellattenzione-e-ipnosi-digitale/",
+  "data": "2026-11-19",
+  "fonte": "FORUM PA",
+  "estratto": "L'IA promette di farci risparmiare minuti, il feed ci porta via ore. Il guadagno più grande dei prossimi anni non sarà la velocità degli strumenti, ma tornare a decidere noi quando entrare e…",
+  "categorie": [
+   "PA Digitale",
+   "Innovazione",
+   "Innovazione Digitale"
+  ]
+ },
+ {
+  "titolo": "Accompagnare i territori: il Centro Servizi Territoriali sul campo. Riparte il podcast “CapCoe. La coesione riparte dalle persone”",
+  "link": "https://www.forumpa.it/programmazione-europea/accompagnare-i-territori-il-centro-servizi-territoriali-sul-campo-riparte-il-podcast-capcoe-la-coesione-riparte-dalle-persone/",
+  "data": "2026-11-19",
+  "fonte": "FORUM PA",
+  "estratto": "Non una semplice assistenza tecnica, ma un vero e proprio motore di coaching istituzionale, affiancamento continuo e supporto concreto per i piccoli e medi enti locali del Mezzogiorno. È il CST, il…",
+  "categorie": [
+   "Città e Territori",
+   "Programmazione Europea",
+   "Competenze"
+  ]
+ },
+ {
   "titolo": "Scuola, sei studenti su dieci travolti dall'ansia: ecco cosa chiedono agli adulti",
   "link": "https://lentepubblica.it/scuola/ansia-degli-studenti-ia-stress/",
   "data": "2026-11-18",
