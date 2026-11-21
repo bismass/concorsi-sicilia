@@ -61,6 +61,116 @@
   "analisi": 2
  },
  {
+  "prov": "Catania",
+  "province": [
+   "Catania"
+  ],
+  "ente": "Comune di San Michele di Ganzaria",
+  "titolo": "CONCORSO PUBBLICO PER SOLI ESAMI PER LA COPERTURA A TEMPO PIENO ED INDETERMINATO DI N. 1 POSTO CON PROFILO PROFESSIONALE DI \"SPECIALISTA INFORMATICO DIGITALE\" (FUNZIONARIO INFORMATICO) – AREA DEI FUNZIONARI E DELL'ELEVATA QUALIFICAZIONE – AI SENSI DEL VIGENTE CCNL COMPARTO FUNZIONI LOCALI",
+  "profilo": "Informatico",
+  "studio": "Laurea",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-20",
+  "scad": "2026-12-20",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=f450b32a1b27424d9c368d297ca29c27",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "c96da1fc-eb07-49b3-bbe3-94d69f125c36"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Catania",
+  "province": [
+   "Catania"
+  ],
+  "ente": "Istituto di Alta Formazione Artistica e Musicale",
+  "titolo": "Bando per la procedura selettiva comparativa per titoli per l'individuazione di destinatati di contratti di natura occasionale per supporto all'insegnamento nei corsi base clarinetto e violoncello AA 2026-2027",
+  "profilo": "Vari profili",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 2,
+  "pub": "2026-11-20",
+  "scad": "2026-12-05",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=bced2e3863ef41f6837b643a849510d9",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "2cc182bf-887d-48f8-b80b-b8c2fd2f2e7c"
+  ],
+  "studio_fonte": "bando PDF (OCR)",
+  "analisi": 2
+ },
+ {
+  "prov": "Caltanissetta",
+  "province": [
+   "Caltanissetta"
+  ],
+  "ente": "Istituto Superiore di Studi Musicali Vincenzo Bellini di Caltanissetta",
+  "titolo": "CANTO - SELEZIONE PUBBLICA (PROCEDURA COMPARATIVA) PER TITOLI PER L’INDIVIDUAZIONE DI ESPERTI PER LA STIPULA DI CONTRATTI DI LAVORO AUTONOMO",
+  "profilo": "Vari profili",
+  "studio": "Vari",
+  "studio_dedotto": false,
+  "posti": 1,
+  "pub": "2026-11-20",
+  "scad": "2026-12-20",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=03ecc64f490f45ee91e25876586db535",
+  "categoria": "Selezione Professionisti ed Esperti",
+  "nota": "",
+  "media": [
+   "81d285bb-dff7-4d29-8f09-a012c407c603"
+  ],
+  "studio_fonte": "bando PDF",
+  "analisi": 2
+ },
+ {
+  "prov": "Caltanissetta",
+  "province": [
+   "Caltanissetta"
+  ],
+  "ente": "Istituto Superiore di Studi Musicali Vincenzo Bellini di Caltanissetta",
+  "titolo": "CONCORSO PER TITOLI ED ESAMI PER IL RECLUTAMENTO A TEMPO DEFINITO ED INDETERMINATO DI UN DOCENTE PRESSO IL CONSERVATORIO STATALE DI MUSICA “V. BELLINI” DI CALTANISSETTA SETTORE ARTISTICO DISCIPLINARE AFAM004 “CONTRABBASSO”",
+  "profilo": "Vari profili",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-20",
+  "scad": "2026-12-20",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=6deca47599964807af2f6d666f423efb",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "a2d702d3-823c-4271-8130-0d1366ef6e21"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
+  "prov": "Caltanissetta",
+  "province": [
+   "Caltanissetta"
+  ],
+  "ente": "Istituto Superiore di Studi Musicali Vincenzo Bellini di Caltanissetta",
+  "titolo": "CONCORSO PER TITOLI ED ESAMI PER IL RECLUTAMENTO A TEMPO PIENO ED INDETERMINATO DI UN DOCENTE PRESSO IL CONSERVATORIO STATALE DI MUSICA “V. BELLINI” DI CALTANISSETTA SETTORE ARTISTICO DISCIPLINARE AFAM020 “CANTO”",
+  "profilo": "Vari profili",
+  "studio": "Laurea",
+  "studio_dedotto": true,
+  "posti": 1,
+  "pub": "2026-11-20",
+  "scad": "2026-12-20",
+  "url": "https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=19a5d3b9067f41c398ee4a506eec844d",
+  "categoria": "Concorso",
+  "nota": "",
+  "media": [
+   "2a0aaf1e-ddc6-439e-b02e-a43e148a52b0"
+  ],
+  "studio_fonte": "bando PDF (nessun titolo trovato)",
+  "analisi": 2
+ },
+ {
   "prov": "Messina",
   "province": [
    "Messina"
